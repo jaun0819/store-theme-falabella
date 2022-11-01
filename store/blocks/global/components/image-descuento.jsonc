@@ -1,0 +1,14 @@
+{
+    "image#home__descuento":{
+        "title":"descuento",
+        "props":{  
+            "colSizing":"auto",
+        "colJustify": "around",
+        "horizontalAlign":"center",
+            "position": "CENTER", 
+            "src":"assets/img/cyber.png",
+            "blockClass":"descuento--tittle",
+            "href": "/"
+        }
+    }
+}

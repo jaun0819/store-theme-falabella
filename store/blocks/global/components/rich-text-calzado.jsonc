@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__section--six":{
+        "children":[
+            "rich-text#home__section--six"
+        ],
+        "props":{
+            "blockClass":"home__section--six"
+        }
+    },
+    "rich-text#home__section--six":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Calzado",
+            "blockClass":"section__six--title"
+
+        }
+    }
+}

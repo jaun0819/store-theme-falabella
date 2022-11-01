@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__section--five":{
+        "children":[
+            "rich-text#home__section--five"
+        ],
+        "props":{
+            "blockClass":"home__section--five"
+        }
+    },
+    "rich-text#home__section--five":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Hombre",
+            "blockClass":"section__five--title"
+
+        }
+    }
+}

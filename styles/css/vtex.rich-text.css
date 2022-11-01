@@ -1,0 +1,102 @@
+.paragraph--section__one--title{
+    background-color: black; 
+    
+    color: white;
+   
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 2rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.container--section__one--title{
+    justify-content: center;
+    transform: translateY(-26px);
+
+}
+.paragraph--section__two--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__three--title{
+    background-color: black;
+border-radius: 10px;
+width: 227px;
+ 
+margin-left: -87px;
+height: 41px;
+
+color: #bbe400;
+font-size: .875rem;
+font-weight: 900;
+letter-spacing: .094rem;
+font-family: Lato,sans-serif;
+}
+.paragraph--section__four--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__five--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__six--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__seven--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}

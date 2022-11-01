@@ -1,0 +1,373 @@
+{
+    
+"header-layout.desktop":{
+        "title":"header desktop",
+        "children":[
+            "header-row#header__top"
+
+        ]
+
+
+    },
+    "header-layout.mobile":{
+        "title":"header mobile",
+        "children":[
+            "header-row#header__top",
+            "header-row#header_middle"
+
+        ]
+
+
+    },
+
+    "header-row#header__top":{
+        "title":"headder top",
+        "children":[
+            "logo#header__top--logo",
+            "header-spacer", 
+            "search-bar",
+            "login",
+            "minicart.v2"
+
+        ]
+    },
+    "logo#header__top--logo":{
+        "title":"logo",
+        "props":{
+            "url":"assets/img/falabella.png",
+            "width":150,
+            "href":"#"
+        }
+    },
+    "login":{
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile":true
+           
+          }
+    },
+    
+    "header-row#header_middle":{
+        "title":"header medio",
+        "children":[
+            "drawer#header__mobile--menu"
+        ],
+        "props":{
+            "blockClass":"header__middle"
+        }
+    },
+    
+        "drawer#header__mobile--menu": {
+           "children": [
+             "menu#header_menu"
+           ],
+           "props":{
+             "orientation":"horizontalAlign",
+             "blockClass":"drawer_menu"
+           }
+         },
+         "menu#header_menu": {
+           "children": [
+           "menu-item#department_one",
+           "menu-item#department_two",
+           "menu-item#department_three",
+           "menu-item#department_four",
+           "menu-item#department_five",
+           "menu-item#department_six",
+           "menu-item#department_seven",
+           "menu-item#department_eight",
+           "menu-item#department_nine",
+           "menu-item#department_teen",
+           "menu-item#department_eleven",
+           "menu-item#department_tweleve",
+           "menu-item#department_thirteen",
+           "menu-item#department_fourteen",
+           "menu-item#department_fifteen",
+           "menu-item#department_sixteen",
+           "menu-item#department_seventeen",
+           "menu-item#department_eighteen"
+         ],
+         "props":{
+           "orientation":"vertical"
+         }
+       },
+           "menu-item#department_one": {
+             "props": {
+               "id":"department_uno",
+               "type":"custom",
+               "itemProps":{
+                 "type":"external",
+                 "href": "#",
+                 "noFollow":true,
+                 "tagTitle":"Cyber",
+                 "text":"Cyber"
+               }
+             },
+             "blocks":["submenu#department_one"]
+           },
+           "submenu#department_one":{
+             "children":[
+               "menu#department_one"
+             ],
+             "props":{
+               "orientation":"horizontalAlign"
+             }
+           },
+           "menu#department_one":{
+             "children":[
+               "menu-item#category_one",
+               "menu-item#category_two"
+             ]
+           },
+           "menu-item#category_one":{
+             "props": {
+               "id":"category_one",
+               "type":"custom",
+               "itemProps":{
+                 "type":"external",
+                 "href": "#",
+                 "noFollow":true,
+                 "tagTitle":"Moda Mujer",
+                 "text":"Moda Mujer"
+               }
+             }
+           },
+           "menu-item#category_two":{
+             "props": {
+               "id":"category_one",
+               "type":"custom",
+               "itemProps":{
+                 "type":"external",
+                 "href": "#",
+                 "noFollow":true,
+                 "tagTitle":"Calzado",
+                 "text":"Calzado"
+               }
+             }
+           },"menu-item#department_sixteen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Tecnología",
+      "text":"Tecnología"
+    }
+  }
+},
+           "menu-item#department_two": {
+             "props": {
+               "id":"department_uno",
+               "type":"custom",
+               "itemProps":{
+                 "type":"external",
+                 "href": "#",
+                 "noFollow":true,
+                 "tagTitle":"Celulares",
+                 "text":"Celulares"
+               }
+             }
+         },
+         "menu-item#department_three": {
+           "props": {
+             "id":"department_uno",
+             "type":"custom",
+             "itemProps":{
+               "type":"external",
+               "href": "#",
+               "noFollow":true,
+               "tagTitle":"Electrodomésticos",
+               "text":"Electrodomésticos"
+             }
+           }
+       },
+       "menu-item#department_four": {
+         "props": {
+           "id":"department_uno",
+           "type":"custom",
+           "itemProps":{
+             "type":"external",
+             "href": "#",
+             "noFollow":true,
+             "tagTitle":"Muebles",
+             "text":"Muebles"
+           }
+         }
+     },
+     "menu-item#department_five": {
+       "props": {
+         "id":"department_uno",
+         "type":"custom",
+         "itemProps":{
+           "type":"external",
+           "href": "#",
+           "noFollow":true,
+           "tagTitle":"Dormitorio",
+           "text":"Dormitorio"
+         }
+       }
+   },
+   "menu-item#department_six": {
+     "props": {
+       "id":"department_uno",
+       "type":"custom",
+       "itemProps":{
+         "type":"external",
+         "href": "#",
+         "noFollow":true,
+         "tagTitle":"Decohogar",
+         "text":"Decohogar"
+       }
+     }
+ },
+ "menu-item#department_seven": {
+   "props": {
+     "id":"department_uno",
+     "type":"custom",
+     "itemProps":{
+       "type":"external",
+       "href": "#",
+       "noFollow":true,
+       "tagTitle":"Zapatos",
+       "text":"Zapatos"
+     }
+   }
+},
+"menu-item#department_eight": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Mujer",
+      "text":"Mujer"
+    }
+  }
+},
+"menu-item#department_nine": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Hombre",
+      "text":"Hombre"
+    }
+  }
+},
+"menu-item#department_teen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Relojes y Accesorios",
+      "text":"Relojes y Accesorios"
+    }
+  }
+},
+"menu-item#department_eleven": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Perfumes y Belleza",
+      "text":"Perfumes y Belleza"
+    }
+  }
+},
+"menu-item#department_tweleve": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Deportes",
+      "text":"Deportes"
+    }
+  }
+},
+"menu-item#department_thirteen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Vestuario infantil",
+      "text":"Vestuario infantil"
+    }
+  }
+},
+"menu-item#department_fourteen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Juguetería",
+      "text":"Juguetería"
+    }
+  }
+},
+"menu-item#department_fifteen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Mundo bebé",
+      "text":"Mundo bebé"
+    }
+  }
+},
+
+"menu-item#department_seventeen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Mascotas",
+      "text":"Mascotas"
+    }
+  }
+},
+"menu-item#department_eighteen": {
+  "props": {
+    "id":"department_uno",
+    "type":"custom",
+    "itemProps":{
+      "type":"external",
+      "href": "#",
+      "noFollow":true,
+      "tagTitle":"Descubre más categorías",
+      "text":"Descubre más categorías"
+    }
+  }
+}
+       }

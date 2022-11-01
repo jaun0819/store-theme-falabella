@@ -1,0 +1,33 @@
+{
+    "responsive-layout.desktop":{
+        "children":[
+          /* "header-layout.desktop",  */
+            "image#home__envios",
+            "slider-layout#home__slider--children",
+            "flex-layout.row#seccion-beneficios",
+            "flex-layout.row#seccion-solox",
+            "image#home__descuento",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#seccion-ferta",
+            "flex-layout.row#seccion-fertaa",
+            "flex-layout.row#seccion-fertaaa",
+            "flex-layout.row#seccion-fertaaaa",
+            "flex-layout.row#seccion-fertaaaaa",
+            "flex-layout.row#home__section--two",
+            "flex-layout.row#seccion-tecnologia",
+            "flex-layout.row#home__section--three",
+            "flex-layout.row#seccion-electro",
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#seccion-mujer",
+            "flex-layout.row#home__section--five",
+            "flex-layout.row#seccion-hombre",
+            "flex-layout.row#home__section--six",
+            "flex-layout.row#seccion-calzado",
+            "flex-layout.row#home__section--seven",
+            "flex-layout.row#seccion-decohogar"
+              ]
+    }
+}
+
+
+

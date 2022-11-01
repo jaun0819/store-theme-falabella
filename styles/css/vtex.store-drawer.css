@@ -1,0 +1,31 @@
+.menuIcon{
+    color: white;
+    transform: translateY(-110px);
+    width: 28px;
+    height: 100px;
+    border: 1px  solid white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 48px;
+}
+.openIconContainer{
+   /*  transform: translateY(-90px); */
+   transform: translateY(5px);
+    margin-left: 80px;
+   
+   
+    
+}
+.opened--drawer_menu{
+   /*  display: inline-table; */
+   width: 85%;
+   max-width: 450px;
+   min-width: 100px;
+   pointer-events: auto;
+   transform: translate3d(0%, 154px, 0px)!important;
+
+}
+.closeIconContainer--drawer_menu{
+    /* display: none; */
+    transform: translateY(9px);
+}

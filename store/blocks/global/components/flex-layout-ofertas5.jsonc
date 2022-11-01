@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#seccion-fertaaaaa":{
+        "title":"seccion ofertas",
+        "children":[
+            
+            "flex-layout.col#juegos",
+            "flex-layout.col#sofas",
+            "flex-layout.col#cama"
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_ofertasssss",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#juegos":{
+        "children":[
+         "image#juegos"   
+        ],
+        "props":{
+            "blockClass":"imagen_juegos"
+
+        }
+        
+    },
+    "flex-layout.col#sofas":{
+        "children":[
+         "image#sofas"   
+        ],
+        "props":{
+            "blockClass":"imagen_sofas"
+
+        }
+        
+    },
+    "flex-layout.col#cama":{
+        "children":[
+         "image#cama"   
+        ],
+        "props":{
+            "blockClass":"imagen_cama"
+
+        }
+        
+    },
+    "image#juegos":{
+        "title":"CHAQUETAM_IMAGE",
+        "props":{
+            "src":"assets/img/juegos.png",
+            "maxWidth":1000,
+            "title":"chaquetam",
+            "blockClass":"juegos_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#sofas":{
+        "title":"CHAQUETAH_IMAGE",
+        "props":{
+            "src":"assets/img/sofas.png",
+            "maxWidth":1000,
+            "title":"chaquetah",
+            "blockClass":"sofas_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#cama":{
+        "title":"PERFUME_IMAGE",
+        "props":{
+            "src":"assets/img/cama.png",
+            "maxWidth":1000,
+            "title":"perfume",
+            "blockClass":"cama_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+}

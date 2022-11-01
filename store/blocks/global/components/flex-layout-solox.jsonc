@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#seccion-solox":{
+        "title":"seccion solox",
+        "children":[
+            "flex-layout.col#silla",
+            "flex-layout.col#samsung",
+            "flex-layout.col#adidas",
+            "flex-layout.col#nike"
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_solox"
+            
+    }
+    },
+    "flex-layout.col#silla":{
+        "children":[
+         "image#silla"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+    },
+    "flex-layout.col#samsung":{
+        "children":[
+         "image#samsung" 
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }   
+    },
+    "flex-layout.col#adidas":{
+        "children":[
+         "image#adidas"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+        
+    },
+
+    "flex-layout.col#nike":{
+        "children":[
+         "image#nike"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+        
+    },
+    "image#silla":{
+        "title":"SILLA_IMAGE",
+        "props":{
+            "src":"assets/img/silla.png",
+            "maxWidth":1000,
+            "title":"silla",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#samsung" :{
+        "title":"SAMSUNG_IMAGE",
+        "props":{
+            "src":"assets/img/samsung.png",
+            "maxWidth":1000,
+            "title":"samsung",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#adidas":{
+        "title":"ADIDAS_IMAGE",
+        "props":{
+            "src":"assets/img/adidas.png",
+            "maxWidth":1000,
+            "title":"adidas",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#nike":{
+        "title":"NIKE_IMAGE",
+        "props":{
+            "src":"assets/img/nike.png",
+            "maxWidth":1000,
+            "title":"nike",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+
+}

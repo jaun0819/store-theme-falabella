@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#seccion-calzado":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#calzado1",
+            "flex-layout.col#calzado2",
+            "flex-layout.col#calzado3",
+            "flex-layout.col#calzado4",
+            "flex-layout.col#calzado5",
+            "flex-layout.col#calzado6"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_tecno",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#calzado1":{
+        "children":[
+         "image#calzado1"   
+        ],
+        "props":{
+
+            "blockClass":"imagen_calzado1"
+           
+
+        }
+    },
+    "flex-layout.col#calzado2":{
+        "children":[
+         "image#calzado2" 
+        ],
+        "props":{
+            "blockClass":"imagen_calzado2"
+
+        }   
+    },
+    "flex-layout.col#calzado3":{
+        "children":[
+         "image#calzado3"   
+        ],
+        "props":{
+            "blockClass":"imagen_calzado3"
+
+        }
+        
+    },"flex-layout.col#calzado4":{
+        "children":[
+         "image#calzado4"   
+        ],
+        "props":{
+            "blockClass":"imagen_calzado4"
+
+        }
+        
+    },"flex-layout.col#calzado5":{
+        "children":[
+         "image#calzado5"   
+        ],
+        "props":{
+            "blockClass":"imagen_calzado5"
+
+        }
+        
+    },"flex-layout.col#calzado6":{
+        "children":[
+         "image#calzado6"   
+        ],
+        "props":{
+            "blockClass":"imagen_calzado6"
+
+        }
+        
+    },
+    "image#calzado1" :{
+        "title":"CELULAR_IMAGE",
+        "props":{
+            "src":"assets/img/calzado1.png",
+            "maxWidth":1000,
+            "title":"celular",
+            "blockClass":"calzado1_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#calzado2" :{
+        "title":"AUDIO_IMAGE",
+        "props":{
+            "src":"assets/img/calzado2.png",
+            "maxWidth":1000,
+            "title":"audifonos",
+            "blockClass":"calzado2_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#calzado3":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/calzado3.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"calzado3_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#calzado4":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/calzado4.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"calzado4_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#calzado5":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/calzado5.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"calzado5_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#calzado6":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/calzado6.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"calzado6_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,159 @@
+.flexColChild--section__one--image{
+    max-width: 600px;
+}
+.flexCol--section__two--item
+:global(.vtex-store-link-0-x-buttonlink){
+    background: red;
+}
+/* .imageElement--descuento--tittle{
+    width: 3000;
+    
+} */
+.flexRow--contenedor_beneficios{
+ background-color: rgb(187,224,50);
+border-bottom: 50px; 
+margin-left: -168px;
+transform: translateY(-5px);
+ 
+}
+.flexRow--home__section--one{
+    background-color: rgb(167,213,0);
+    border-radius: 20px;
+    transform: translateY(40px);
+}
+.flexRow--contenedor_ofertas{
+    transform: translateY(80px);
+    
+}
+.flexRow--contenedor_ofertass{
+    transform: translateY(86px);
+    
+}
+.flexRow--contenedor_ofertasss{
+    transform: translateY(124px);
+    
+}
+.flexRow--contenedor_ofertassss{
+    transform: translateY(142px);
+    
+}
+.flexRow--contenedor_ofertasssss{
+    transform: translateY(164px);
+    
+}
+.flexRow--home__section--one{
+    align-items: center;
+    height: 40px;
+}
+
+.flexRow--contenedor_solox{
+    margin-left: -173px;
+}
+.flexColChild--imagen_celular{
+    height: 100%;
+    margin-left: -94px;
+    margin-right: -145px;
+}
+.flexCol--imagen_audio{
+    margin-right: -733px;
+    width: 429px;
+    height: 100%;
+}
+.flexCol--imagen_electro{
+    margin-right: -504px;
+    width: 429px;
+    height: 100%;
+}
+.flexCol--imagen_lavadora{
+    margin-left: -185px;
+    width: 464px;
+    height: 100%;
+}
+.flexCol--imagen_tenis{
+    margin-left: -276px;
+}
+.flexCol--imagen_nevera{
+    
+    margin-right: 254px;
+}
+.flexCol--imagen_chaquetam{
+    height: 100%;
+    margin-left: -326px;
+    margin-right: -145px;
+}
+.flexCol--imagen_perfumes {
+    margin-right: -524px;
+    /* width: 348px; */
+    height: 100%;
+}
+.flexCol--imagen_chaquetah{
+    margin-right: -733px;
+    width: 374px;
+    height: 100%;
+}
+.flexCol--imagen_jugueteria{
+    margin-left: -276px;
+}
+.flexCol--imagen_relojes{
+    margin-left: -185px;
+    width: 464px;
+    height: 100%;
+}
+.flexCol--imagen_bicicletas{
+    margin-right: 254px;
+}
+.flexCol--imagen_juegos{
+    height: 100%;
+    margin-left: -326px;
+    margin-right: -145px;
+}
+.flexCol--imagen_sofas{
+    margin-right: -733px;
+    width: 374px;
+    height: 100%;
+}
+.flexCol--imagen_cama{
+    margin-right: -524px;
+    /* width: 348px; */
+    height: 100%;
+}
+.flexRow--home__section--two{
+    transform: translateY(184px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+.flexRow--contenedor_tecno{
+    transform: translateY(208px);
+    margin-right: 25px;
+}
+.flexRow--home__section--three{
+    transform: translateY(144px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+.flexRow--home__section--four{
+    transform: translateY(144px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+.flexRow--home__section--five{
+    transform: translateY(144px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+.flexRow--home__section--six{
+    transform: translateY(144px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+.flexRow--home__section--seven{
+    transform: translateY(144px);
+    background-color: rgb(164,212,30);
+    border-radius: 1.7em;
+}
+/* @media(min-with:1000px){
+    :global(.vtex-store-components-3-x-searchBarContaoner){
+        width: 100%;
+        padding: 10px;
+    }
+} */

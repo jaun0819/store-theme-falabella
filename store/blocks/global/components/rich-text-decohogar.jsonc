@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__section--seven":{
+        "children":[
+            "rich-text#home__section--seven"
+        ],
+        "props":{
+            "blockClass":"home__section--seven"
+        }
+    },
+    "rich-text#home__section--seven":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Decohogar",
+            "blockClass":"section__seven--title"
+
+        }
+    }
+}

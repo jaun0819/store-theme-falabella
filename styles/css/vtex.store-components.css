@@ -1,0 +1,395 @@
+.paragraph--section__one--tittle{
+    color: rgb(65, 199, 65)
+}
+.imageElement--envios--tittle{
+    width: 8000px;
+}
+.imageElement--descuento--tittle{
+    /* transform: translateY(300px); */
+    margin-left: 19px;
+}
+.imageElement--cmr_image{
+    padding: 50px; 
+    margin: 20px; 
+    float: left; 
+    width: 380px;
+    border-radius: 100px;
+   
+}
+.imageElement--descuento--tittle{
+    border-radius: 20px;
+    width: 98%;
+    top: 50%;
+    left: 90%;
+    
+    
+}
+.imageElement--cmr_image{
+    border-radius: 20px;
+    width: 97%;
+    top: 50%;
+    left: 90%;
+}
+.imageElement--celular_image{
+    border-radius: 0.625rem;
+    
+    width: 928px;
+
+    height: 100%;
+    top: 50%;
+    left: 90%;
+     
+}
+.imageElement--audio_image{
+    border-radius: 0.625rem;
+    width: 360px;
+    top: 50%;
+    height: 100%;
+    left: 90%;
+}
+.imageElement--electro_image{
+    border-radius: 0.625rem;
+    width: 360px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--tenis_image{
+    border-radius: 0.625rem;
+    width: 748px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+    transform: translateY(20px);
+}
+.imageElement--nevera_image{
+    transform: translateY(18px);
+    border-radius: 0.625rem;
+    width: 429px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--lavadora_image{
+    transform: translateY(17px);
+    border-radius: 0.625rem;
+    width: 464px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--chaquetam_image{
+    border-radius: 0.625rem;
+    width: 928px;
+    top: 50%;
+    height: 100%;
+    left: 90%;
+}
+.imageElement--chaquetah_image{
+    border-radius: 0.625rem;
+    width: 374px;
+    top: 50%;
+    height: 100%;
+    left: 90%;
+}
+.imageElement--perfume_image{
+    border-radius: 0.625rem;
+    width: 348px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--jugueteria_image{
+    border-radius: 0.625rem;
+    width: 748px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+    
+}
+.imageElement--relojes_image{
+    border-radius: 0.625rem;
+    width: 464px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--bicicletas_image{
+    border-radius: 0.625rem;
+    width: 429px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+.imageElement--juegos_image{
+    border-radius: 0.625rem;
+    width: 928px;
+    top: 50%;
+    height: 100%;
+    left: 90%;
+}
+.imageElement--sofas_image{
+    border-radius: 0.625rem;
+    width: 374px;
+    top: 50%;
+    height: 100%;
+    left: 90%;
+}
+.imageElement--cama_image{
+    border-radius: 0.625rem;
+    width: 348px;
+    top: 50%;
+    left: 90%;
+    height: 100%;
+}
+/* .logoImage{
+    margin-right: 100%;
+} */
+.searchIcon{
+    color: white;
+    left: 300px;
+}
+.searchBarIcon{
+    width: 50px;
+    margin-right: -16px;
+    background-color: rgb(143,202,0);
+}
+.autoCompleteOuterContainer{
+   height: 20px;
+   width: 1000px;
+  
+}
+.searchBarContainer{
+    transform: translateY(10px);
+    margin-right: 20%;
+    
+}
+.logoLink{
+    transform: translateY(1px);
+    margin-left: -117px;
+}
+.searchIcon{
+    margin-left: 17px;
+}
+.imageElement--tv_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--cel_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--pc_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--scot_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--cam_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--relojj_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageElement--neveras_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--lavadoras_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--lavadora2_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--licuadora_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--aspiradora_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--freidora_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageElement--mujer1_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--mujer2_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--mujer3_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--mujer4_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--mujer5_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--mujer6_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageElement--hombre1_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--hombre2_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--hombre3_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--hombre4_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--hombre5_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--hombre6_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageElement--calzado1_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--calzado2_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--calzado3_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--calzado4_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--calzado5_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--calzado6_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageElement--decohogar1_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -29px;
+}
+.imageElement--decohogar2_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: -3px;
+}
+.imageElement--decohogar3_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 25px;
+}
+.imageElement--decohogar4_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 49px;
+}
+.imageElement--decohogar5_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 71px;
+}
+.imageElement--decohogar6_image{
+    width: 250px;
+    height: 80%;
+    z-index: 0;
+    margin-left: 100px;
+}
+/* @media(min-with:1000px){
+    .vtex-store-components-3-x-searchBarContaoner{
+        width: 100%;
+        padding: 10px;
+    }
+} */

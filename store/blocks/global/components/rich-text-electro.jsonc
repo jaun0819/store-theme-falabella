@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__section--three":{
+        "children":[
+            "rich-text#home__section--three"
+        ],
+        "props":{
+            "blockClass":"home__section--three"
+        }
+    },
+    "rich-text#home__section--three":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Electro",
+            "blockClass":"section__three--title"
+
+        }
+    }
+}

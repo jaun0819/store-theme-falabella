@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#seccion-tecnologia":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#tv",
+            "flex-layout.col#cel",
+            "flex-layout.col#pc",
+            "flex-layout.col#scot",
+            "flex-layout.col#cam",
+            "flex-layout.col#relojj"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_tecno",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#tv":{
+        "children":[
+         "image#tv"   
+        ],
+        "props":{
+
+            "blockClass":"imagen_tv"
+           
+
+        }
+    },
+    "flex-layout.col#cel":{
+        "children":[
+         "image#cel" 
+        ],
+        "props":{
+            "blockClass":"imagen_cel"
+
+        }   
+    },
+    "flex-layout.col#pc":{
+        "children":[
+         "image#pc"   
+        ],
+        "props":{
+            "blockClass":"imagen_pc"
+
+        }
+        
+    },"flex-layout.col#scot":{
+        "children":[
+         "image#scot"   
+        ],
+        "props":{
+            "blockClass":"imagen_scot"
+
+        }
+        
+    },"flex-layout.col#cam":{
+        "children":[
+         "image#cam"   
+        ],
+        "props":{
+            "blockClass":"imagen_cam"
+
+        }
+        
+    },"flex-layout.col#relojj":{
+        "children":[
+         "image#relojj"   
+        ],
+        "props":{
+            "blockClass":"imagen_relojj"
+
+        }
+        
+    },
+    "image#tv":{
+        "title":"CELULAR_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_tv.png",
+            "maxWidth":1000,
+            "title":"celular",
+            "blockClass":"tv_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#cel" :{
+        "title":"AUDIO_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_cel.png",
+            "maxWidth":1000,
+            "title":"audifonos",
+            "blockClass":"cel_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#pc":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_pc.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"pc_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#scot":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_scot.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"scot_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#cam":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_cam.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"cam_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#relojj":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/tecno_relojj.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"relojj_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+}

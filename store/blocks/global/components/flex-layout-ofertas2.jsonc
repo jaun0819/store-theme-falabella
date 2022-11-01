@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#seccion-fertaa":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#lavadora",
+            "flex-layout.col#nevera",
+            "flex-layout.col#tenis"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_ofertass",
+            "colGap":5
+    }
+    },
+    "flex-layout.col#lavadora":{
+        "children":[
+         "image#lavadora"   
+        ],
+        "props":{
+            "blockClass":"imagen_lavadora"
+
+        }
+        
+    },
+    "flex-layout.col#nevera":{
+        "children":[
+         "image#nevera"   
+        ],
+        "props":{
+            "blockClass":"imagen_nevera"
+
+        }
+        
+    },
+    "flex-layout.col#tenis":{
+        "children":[
+         "image#tenis"   
+        ],
+        "props":{
+            "blockClass":"imagen_tenis"
+
+        }
+        
+    },
+    "image#lavadora":{
+        "title":"LAVADORA_IMAGE",
+        "props":{
+            "src":"assets/img/lavadora.png",
+            "maxWidth":1000,
+            "title":"lavadora",
+            "blockClass":"lavadora_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#nevera":{
+        "title":"NEVERA_IMAGE",
+        "props":{
+            "src":"assets/img/nevera.png",
+            "maxWidth":1000,
+            "title":"nevera",
+            "blockClass":"nevera_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#tenis":{
+        "title":"TENIS_IMAGE",
+        "props":{
+            "src":"assets/img/tenis.png",
+            "maxWidth":1000,
+            "title":"tenis",
+            "blockClass":"tenis_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+}

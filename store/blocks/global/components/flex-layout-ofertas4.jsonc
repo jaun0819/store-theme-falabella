@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#seccion-fertaaaa":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#relojes",
+            "flex-layout.col#bicicletas",
+            "flex-layout.col#jugueteria"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_ofertassss",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#relojes":{
+        "children":[
+         "image#relojes"   
+        ],
+        "props":{
+            "blockClass":"imagen_relojes"
+
+        }
+        
+    },
+    "flex-layout.col#bicicletas":{
+        "children":[
+         "image#bicicletas"   
+        ],
+        "props":{
+            "blockClass":"imagen_bicicletas"
+
+        }
+        
+    },
+    "flex-layout.col#jugueteria":{
+        "children":[
+         "image#jugueteria"   
+        ],
+        "props":{
+            "blockClass":"imagen_jugueteria"
+
+        }
+        
+    },
+    "image#relojes":{
+        "title":"CHAQUETAM_IMAGE",
+        "props":{
+            "src":"assets/img/relojes.png",
+            "maxWidth":1000,
+            "title":"chaquetam",
+            "blockClass":"relojes_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#bicicletas":{
+        "title":"CHAQUETAH_IMAGE",
+        "props":{
+            "src":"assets/img/bicicleta.png",
+            "maxWidth":1000,
+            "title":"chaquetah",
+            "blockClass":"bicicletas_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#jugueteria":{
+        "title":"PERFUME_IMAGE",
+        "props":{
+            "src":"assets/img/jugueteria.png",
+            "maxWidth":1000,
+            "title":"perfume",
+            "blockClass":"jugueteria_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+}

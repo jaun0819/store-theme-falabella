@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#seccion-mujer":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#mujer1",
+            "flex-layout.col#mujer2",
+            "flex-layout.col#mujer3",
+            "flex-layout.col#mujer4",
+            "flex-layout.col#mujer5",
+            "flex-layout.col#mujer6"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_tecno",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#mujer1":{
+        "children":[
+         "image#mujer1"   
+        ],
+        "props":{
+
+            "blockClass":"imagen_mujer1"
+           
+
+        }
+    },
+    "flex-layout.col#mujer2":{
+        "children":[
+         "image#mujer2" 
+        ],
+        "props":{
+            "blockClass":"imagen_mujer2"
+
+        }   
+    },
+    "flex-layout.col#mujer3":{
+        "children":[
+         "image#mujer3"   
+        ],
+        "props":{
+            "blockClass":"imagen_mujer3"
+
+        }
+        
+    },"flex-layout.col#mujer4":{
+        "children":[
+         "image#mujer4"   
+        ],
+        "props":{
+            "blockClass":"imagen_mujer14"
+
+        }
+        
+    },"flex-layout.col#mujer5":{
+        "children":[
+         "image#mujer5"   
+        ],
+        "props":{
+            "blockClass":"imagen_mujer5"
+
+        }
+        
+    },"flex-layout.col#mujer6":{
+        "children":[
+         "image#mujer6"   
+        ],
+        "props":{
+            "blockClass":"imagen_mujer6"
+
+        }
+        
+    },
+    "image#mujer1" :{
+        "title":"CELULAR_IMAGE",
+        "props":{
+            "src":"assets/img/mujer1.png",
+            "maxWidth":1000,
+            "title":"celular",
+            "blockClass":"mujer1_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#mujer2" :{
+        "title":"AUDIO_IMAGE",
+        "props":{
+            "src":"assets/img/mujer2.png",
+            "maxWidth":1000,
+            "title":"audifonos",
+            "blockClass":"mujer2_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#mujer3":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/mujer3.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"mujer3_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#mujer4":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/mujer4.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"mujer4_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#mujer5":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/mujer5.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"mujer5_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#mujer6":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/mujer6.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"mujer6_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+}

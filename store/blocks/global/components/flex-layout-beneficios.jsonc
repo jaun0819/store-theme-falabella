@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#seccion-beneficios":{
+        "title":"seccion beneficios",
+        "children":[
+            "flex-layout.col#cmr",
+            "flex-layout.col#beneficios",
+            "flex-layout.col#devoluciones",
+            "flex-layout.col#soat"
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_beneficios"
+            
+    }
+    },
+    "flex-layout.col#cmr":{
+        "children":[
+         "image#cmr"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+    },
+    "flex-layout.col#beneficios":{
+        "children":[
+         "image#beneficios" 
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }   
+    },
+    "flex-layout.col#devoluciones":{
+        "children":[
+         "image#devoluciones"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+        
+    },
+
+    "flex-layout.col#soat":{
+        "children":[
+         "image#soat"   
+        ],
+        "props":{
+            "blockClass":"seccion beneficios"
+
+        }
+        
+    },
+    "image#cmr":{
+        "title":"CMR_IMAGE",
+        "props":{
+            "src":"assets/img/cmr.png",
+            "maxWidth":1000,
+            "title":"cmr",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#beneficios" :{
+        "title":"CMR_IMAGE",
+        "props":{
+            "src":"assets/img/beneficio.png",
+            "maxWidth":1000,
+            "title":"cmr",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#devoluciones":{
+        "title":"CMR_IMAGE",
+        "props":{
+            "src":"assets/img/devoluciones.png",
+            "maxWidth":1000,
+            "title":"cmr",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#soat":{
+        "title":"CMR_IMAGE",
+        "props":{
+            "src":"assets/img/soat.png",
+            "maxWidth":1000,
+            "title":"cmr",
+            "blockClass":"cmr_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+
+}

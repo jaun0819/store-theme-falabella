@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#seccion-electro":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#neveraa",
+            "flex-layout.col#lavadoraa",
+            "flex-layout.col#lavadora2",
+            "flex-layout.col#licuadora",
+            "flex-layout.col#aspiradora",
+            "flex-layout.col#freidora"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_tecno",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#neveraa":{
+        "children":[
+         "image#neveraa"   
+        ],
+        "props":{
+
+            "blockClass":"imagen_neveraa"
+           
+
+        }
+    },
+    "flex-layout.col#lavadoraa":{
+        "children":[
+         "image#lavadoraa" 
+        ],
+        "props":{
+            "blockClass":"imagen_lavadoraa"
+
+        }   
+    },
+    "flex-layout.col#lavadora2":{
+        "children":[
+         "image#lavadora2"   
+        ],
+        "props":{
+            "blockClass":"imagen_lavadora2"
+
+        }
+        
+    },"flex-layout.col#licuadora":{
+        "children":[
+         "image#licuadora"   
+        ],
+        "props":{
+            "blockClass":"imagen_licuadora"
+
+        }
+        
+    },"flex-layout.col#aspiradora":{
+        "children":[
+         "image#aspiradora"   
+        ],
+        "props":{
+            "blockClass":"imagen_aspiradora"
+
+        }
+        
+    },"flex-layout.col#freidora":{
+        "children":[
+         "image#freidora"   
+        ],
+        "props":{
+            "blockClass":"imagen_freidora"
+
+        }
+        
+    },
+    "image#neveraa" :{
+        "title":"CELULAR_IMAGE",
+        "props":{
+            "src":"assets/img/electro_nevera.png",
+            "maxWidth":1000,
+            "title":"celular",
+            "blockClass":"neveras_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#lavadoraa" :{
+        "title":"AUDIO_IMAGE",
+        "props":{
+            "src":"assets/img/electro_lavadora.png",
+            "maxWidth":1000,
+            "title":"audifonos",
+            "blockClass":"lavadoras_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#lavadora2":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/electro_lavadora2.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"lavadora2_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#licuadora":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/electro_licuadora.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"licuadora_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#aspiradora":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/electro_aspiradora.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"aspiradora_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#freidora":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/electro_freidora.png",
+            "maxWidth":1000,
+            "title":"electrodomesticos",
+            "blockClass":"freidora_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+}

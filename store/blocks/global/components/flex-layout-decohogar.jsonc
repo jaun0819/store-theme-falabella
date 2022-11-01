@@ -1,0 +1,163 @@
+{
+    "flex-layout.row#seccion-decohogar":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#decohogar1",
+            "flex-layout.col#decohogar2",
+            "flex-layout.col#decohogar3",
+            "flex-layout.col#decohogar4",
+            "flex-layout.col#decohogar5",
+            "flex-layout.col#decohogar6"
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_tecno",
+            "colGap":5
+            
+    }
+    },
+    "flex-layout.col#decohogar1":{
+        "children":[
+         "image#decohogar1"   
+        ],
+        "props":{
+
+            "blockClass":"imagen_decohogar1"
+           
+
+        }
+    },
+    "flex-layout.col#decohogar2":{
+        "children":[
+         "image#decohogar2" 
+        ],
+        "props":{
+            "blockClass":"imagen_decohogar2"
+
+        }   
+    },
+    "flex-layout.col#decohogar3":{
+        "children":[
+         "image#decohogar3"   
+        ],
+        "props":{
+            "blockClass":"imagen_decohogar3"
+
+        }
+        
+    },"flex-layout.col#decohogar4":{
+        "children":[
+         "image#decohogar4"   
+        ],
+        "props":{
+            "blockClass":"imagen_decohogar4"
+
+        }
+        
+    },"flex-layout.col#decohogar5":{
+        "children":[
+         "image#decohogar5"   
+        ],
+        "props":{
+            "blockClass":"imagen_decohogar5"
+
+        }
+        
+    },"flex-layout.col#decohogar6":{
+        "children":[
+         "image#decohogar6"   
+        ],
+        "props":{
+            "blockClass":"imagen_decohogar6"
+
+        }
+        
+    },
+    "image#decohogar1" :{
+        "title":"CELULAR_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar1.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar1_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#decohogar2" :{
+        "title":"AUDIO_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar2.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar2_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#decohogar3":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar3.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar3_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#decohogar4":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar4.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar4_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#decohogar5":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar5.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar5_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    },
+    "image#decohogar6":{
+        "title":"ELECTRO_IMAGE",
+        "props":{
+            "src":"assets/img/decohogar6.png",
+            "maxWidth":1000,
+            "title":"decohogar",
+            "blockClass":"decohogar6_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+
+}
