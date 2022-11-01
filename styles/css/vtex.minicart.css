@@ -1,7 +1,10 @@
 .openIconContainer{
-    transform: translateY(201px);
+    transform: translateY(191px);
     margin-left: 30px;
    
+}
+.openIconContainer:hover{
+    border-bottom: 2px solid greenyellow;
 }
 .minicartWrapperContainer{
     transform: translateY(-180px);

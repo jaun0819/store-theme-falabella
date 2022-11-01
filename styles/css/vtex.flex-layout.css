@@ -157,3 +157,6 @@ transform: translateY(-5px);
         padding: 10px;
     }
 } */
+.flexRow--icon-login{
+    transform: translateY(14px);
+}

@@ -1,13 +1,13 @@
 {
     "icon#cart-icon":{
+       
         "props":{
-        "iconProps":{
             "id":"hpa-cart",
             "viewBox":"0 0 40 40",
-            "size":40
+            "size":60
           }  
-    }
-},
+    },
+
 "minicart.v2":{
     "props":{
         "MinicartIcon":"icon#cart-icon",
@@ -15,5 +15,4 @@
         "quantityDisplay":"always"
     }
   }
-
 }

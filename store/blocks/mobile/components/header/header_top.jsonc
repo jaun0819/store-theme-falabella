@@ -1,0 +1,13 @@
+{
+    "header-row#header__top--mobile": {
+        "title": "header top mobile",
+        "children": [
+            "logo#header__top--logo",
+          "drawer#header__mobile--menu",
+          /*  "login", */
+          "modal-trigger#login",
+          "minicart.v2"
+        ]
+      }
+
+}
