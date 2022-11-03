@@ -19,18 +19,18 @@
       "header-spacer",
       "search-bar",
       /*  "login", */
-      "modal-trigger#login",
+      "modal-trigger#loginn",
       "minicart.v2"
     ]
   },
   
-  "modal-trigger#login": {
+  "modal-trigger#loginn": {
     "children": [
-      "flex-layout.row#usuario",
+      "flex-layout.row#usuarioo",
       "modal-layout#login"
     ]
   },
-  "flex-layout.row#usuario": {
+  "flex-layout.row#usuarioo": {
     "children": [
       "image#login",
       "rich-text#login"
@@ -68,7 +68,9 @@
   "header-row#header_middle": {
     "title": "header medio",
     "children": [
-      "drawer#header__mobile--menu"
+     /*  "drawer#header__mobile--menu" */
+     "flex-layout.row#4-desktop", 
+     "flex-layout.row#mega-menu"
     ],
     "props": {
       "blockClass": "header__middle"

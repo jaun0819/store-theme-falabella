@@ -1,0 +1,17 @@
+.menuContainerNav{
+    z-index: 2;
+}
+.triggerContainer{
+    margin-left: 53px;
+    transform: translateY(-65px);
+}
+.styledLinkContent:hover{
+    color: rgb(164,212,30);
+}
+.menuItem{
+    background-color: white;
+    height: 20px;
+}
+.justify-between{
+    color: #6E7578;
+}
