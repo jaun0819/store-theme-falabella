@@ -158,7 +158,7 @@ transform: translateY(-5px);
     }
 } */
 .flexRow--icon-login{
-    transform: translateY(-11px);
+    transform: translateY(33px);
     width: 141px;
 }
 .flexColChild--imagen_perfumes{
@@ -168,5 +168,8 @@ transform: translateY(-5px);
     margin-left: 282px;
 }
 .flexRowContent--icon-compras{
-    transform: translateY(-11px);
+    transform: translateY(33px);
+}
+.flexRowContent--row_banner_down{
+    margin-left: 316px;
 }

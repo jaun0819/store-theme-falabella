@@ -316,6 +316,11 @@
       "blockClass": "header__middle"
     }
   },
+  "search-bar":{
+    "props":{
+     "placeholder":"¿Qué buscas?" 
+    }
+  },
  "header-row#header__down": {
     "title": "headder down",
     "children": [
@@ -328,15 +333,187 @@
 
   "flex-layout.row#banner_down":{
     "children":[
-      "menu#ventatel",
-      "menu#ventawha",
-      "menu#servicio"
+      "menu#aliado",
+      "menu#horario",
+      "menu#club",
+      "menu#cmr",
+      "menu#solicita",
+      "menu#falabella",
+      "menu#beneficios"
     ],
     "props":{
-    "blockClass":"row_banner_top",
+    "blockClass":"row_banner_down",
     "colGap":5   
     }
   },
+  "menu#aliado":{
+    "children":[
+      "menu-item#aliado"
+    ],
+    "props":{
+    "blockClass":"text9" 
+    }
+  },
+  "menu-item#aliado":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Aliado Emprendedor",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#horario":{
+    "children":[
+      "menu-item#horario"
+    ],
+    "props":{
+    "blockClass":"text10" 
+    }
+  },
+  "menu-item#horario":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Horario de tiendas",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#club":{
+    "children":[
+      "menu-item#club"
+    ],
+    "props":{
+    "blockClass":"text10" 
+    }
+  },
+  "menu-item#club":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Club novios",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#cmr":{
+    "children":[
+      "menu-item#cmr"
+    ],
+    "props":{
+    "blockClass":"text11" 
+    }
+  },
+  "menu-item#cmr":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"CMR puntos",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#solicita":{
+    "children":[
+      "menu-item#solicita"
+    ],
+    "props":{
+    "blockClass":"text12" 
+    }
+  },
+  "menu-item#solicita":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Solicita aquí tu CMR",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#falabella":{
+    "children":[
+      "menu-item#falabella"
+    ],
+    "props":{
+    "blockClass":"text13" 
+    }
+  },
+  "menu-item#falabella":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Falabella sostenible",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#beneficios":{
+    "children":[
+      "menu-item#beneficios"
+    ],
+    "props":{
+    "blockClass":"text14" 
+    }
+  },
+  "menu-item#beneficios":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Beneficios",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
 
 
 
