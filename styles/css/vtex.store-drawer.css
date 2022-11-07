@@ -29,3 +29,6 @@
     /* display: none; */
     transform: translateY(9px);
 }
+.openIconContainer--drawer_menu{
+    transform: translateY(121px);
+}

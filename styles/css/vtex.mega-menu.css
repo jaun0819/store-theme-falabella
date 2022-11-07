@@ -2,8 +2,8 @@
     z-index: 2;
 }
 .triggerContainer{
-    margin-left: 53px;
-    transform: translateY(-65px);
+    margin-left: -1537px;
+    transform: translateY(-8px);
 }
 .styledLinkContent:hover{
     color: rgb(164,212,30);

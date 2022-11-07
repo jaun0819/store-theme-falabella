@@ -2,26 +2,227 @@
   "header-layout.desktop": {
     "title": "header desktop",
     "children": [
-      "header-row#header__top"
+      "header-row#header__top",
+      "header-row#header__middle",
+      "header-row#header__down"
+
     ]
   },
-  "header-layout.mobile": {
-    "title": "header mobile",
-    "children": [
-      "header-row#header__top--mobile",
-      "header-row#header_middle--mobile"
-    ]
-  },
+ 
   "header-row#header__top": {
     "title": "headder top",
     "children": [
-      "logo#header__top--logo",
-      "header-spacer",
-      "search-bar",
-      /*  "login", */
-      "modal-trigger#loginn",
-      "minicart.v2"
-    ]
+      "flex-layout.row#banner_top",
+      "flex-layout.row#banner_topp"
+     
+    ],
+    "props":{
+      "blockClass":"header_top"
+    }
+  },
+  "flex-layout.row#banner_top":{
+    "children":[
+      "menu#ventatel",
+      "menu#ventawha",
+      "menu#servicio"
+    ],
+    "props":{
+    "blockClass":"row_banner_top",
+    "colGap":5   
+    }
+  },
+  "menu#ventatel":{
+    "children":[
+      "menu-item#ventatel"
+    ],
+    "props":{
+    "blockClass":"text1" 
+    }
+  },
+  "menu-item#ventatel":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Venta telefónica 587 8008 O 018000 958787",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#ventawha":{
+    "children":[
+      "menu-item#ventawha"
+    ],
+    "props":{
+    "blockClass":"text2" 
+    }
+  },
+  "menu-item#ventawha":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Venta por WhatsApp, Click acá!!!",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#servicio":{
+    "children":[
+      "menu-item#servicio"
+    ],
+    "props":{
+    "blockClass":"text3" 
+    }
+  },
+  "menu-item#servicio":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Servicio al cliente",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "flex-layout.row#banner_topp":{
+    "children":[ 
+      "menu#banco",
+      "menu#seguro",
+      "menu#sodimac",
+      "menu#linio",
+      "menu#crate"
+    ],
+    "props":{
+    "blockClass":"row_banner_topp",
+    "colGap":2   
+    }
+  },
+  "menu#banco":{
+    "children":[
+      "menu-item#banco"
+    ],
+    "props":{
+    "blockClass":"text4" 
+    }
+  },
+  "menu-item#banco":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Banco",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#seguro":{
+    "children":[
+      "menu-item#seguro"
+    ],
+    "props":{
+    "blockClass":"text5" 
+    }
+  },
+  "menu-item#seguro":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Seguro",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#sodimac":{
+    "children":[
+      "menu-item#sodimac"
+    ],
+    "props":{
+    "blockClass":"text6" 
+    }
+  },
+  "menu-item#sodimac":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Sodimac",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#linio":{
+    "children":[
+      "menu-item#linio"
+    ],
+    "props":{
+    "blockClass":"text7" 
+    }
+  },
+  "menu-item#linio":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Linio",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#crate":{
+    "children":[
+      "menu-item#crate"
+    ],
+    "props":{
+    "blockClass":"text8" 
+    }
+  },
+  "menu-item#crate":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Crate&Barrel",  
+        "orientation":"horizontalAlign"
+      }
+    }
   },
   
   "modal-trigger#loginn": {
@@ -42,7 +243,7 @@
   "image#login": {
     "props": {
       "src": "assets/img/usuario.svg",
-      "maxWith": 40
+      "maxWith": 30
     }
   },
   "rich-text#login": {
@@ -50,11 +251,42 @@
       "text": "Inicia sesion"
     }
   },
-  "modal-layout#login": {
+/*   "modal-layout#login": {
     "children": [
       "login-content"
     ]
+  }, */
+  
+  "modal-trigger#compras": {
+    "children": [
+      "flex-layout.row#compras"
+    ]
   },
+  "flex-layout.row#compras": {
+    "children": [
+      "image#compras",
+      "rich-text#compras"
+    ],
+    "props": {
+      "blockClass": "icon-compras"
+    }
+  },
+  "image#compras": {
+    "props": {
+      "src": "assets/img/compras.svg",
+      "maxWith": 30
+    }
+  },
+  "rich-text#compras": {
+    "props": {
+      "text": "Mis compras"
+    }
+  },
+  /* "modal-layout#compras": {
+    "children": [
+      "login-content"
+    ]
+  }, */
   "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
@@ -69,13 +301,48 @@
     "title": "header medio",
     "children": [
      /*  "drawer#header__mobile--menu" */
-     "flex-layout.row#4-desktop", 
-     "flex-layout.row#mega-menu"
+     "logo#header__top--logo",
+     "flex-layout.row#mega-menu",
+     "header-spacer", 
+     "search-bar",
+     /*  "login", */
+     "modal-trigger#loginn",
+     "modal-trigger#compras",
+     "minicart.v2",
+     "flex-layout.row#4-desktop"
+    
     ],
     "props": {
       "blockClass": "header__middle"
     }
   },
+ "header-row#header__down": {
+    "title": "headder down",
+    "children": [
+      "flex-layout.row#banner_down"
+    ],
+    "props":{
+      "blockClass":"header_down"
+    }
+  },
+
+  "flex-layout.row#banner_down":{
+    "children":[
+      "menu#ventatel",
+      "menu#ventawha",
+      "menu#servicio"
+    ],
+    "props":{
+    "blockClass":"row_banner_top",
+    "colGap":5   
+    }
+  },
+
+
+
+
+
+
   "drawer#header__mobile--menu": {
     "children": [
       "menu#header_menu"

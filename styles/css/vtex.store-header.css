@@ -4,3 +4,7 @@
 .headerRowBackground--header__middle{
     background-color: white;
 }
+.headerRowBackground--header_top{
+    background-color: rgb(51,51,51);
+    
+}
