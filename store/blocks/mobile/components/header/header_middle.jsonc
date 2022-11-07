@@ -1,0 +1,19 @@
+{
+    "header-row#header__middle--mobile": {
+        "title": "header top mobile",
+        "children": [
+            "search-bar#mobile"
+        ],
+        "props":{
+          "blockClass":"search_mobile"
+        }
+
+      },
+      "search-bar#mobile":{
+        "props":{
+            "width":300
+            
+
+        }
+      }
+}

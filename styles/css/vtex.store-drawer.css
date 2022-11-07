@@ -1,5 +1,5 @@
 .menuIcon{
-    color: white;
+    color: rgb(1, 1, 1);
     transform: translateY(-110px);
     width: 28px;
     height: 100px;
@@ -28,4 +28,7 @@
 .closeIconContainer--drawer_menu{
     /* display: none; */
     transform: translateY(9px);
+}
+.openIconContainer--drawer_menu{
+    transform: translateY(121px);
 }

@@ -1,373 +1,658 @@
 {
+  "header-layout.desktop": {
+    "title": "header desktop",
+    "children": [
+      "header-row#header__top",
+      "header-row#header__middle",
+      "header-row#header__down"
+
+    ]
+  },
+ 
+  "header-row#header__top": {
+    "title": "headder top",
+    "children": [
+      "flex-layout.row#banner_top",
+      "flex-layout.row#banner_topp"
+     
+    ],
+    "props":{
+      "blockClass":"header_top"
+    }
+  },
+  "flex-layout.row#banner_top":{
+    "children":[
+      "menu#ventatel",
+      "menu#ventawha",
+      "menu#servicio"
+    ],
+    "props":{
+    "blockClass":"row_banner_top",
+    "colGap":5   
+    }
+  },
+  "menu#ventatel":{
+    "children":[
+      "menu-item#ventatel"
+    ],
+    "props":{
+    "blockClass":"text1" 
+    }
+  },
+  "menu-item#ventatel":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Venta telefónica 587 8008 O 018000 958787",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#ventawha":{
+    "children":[
+      "menu-item#ventawha"
+    ],
+    "props":{
+    "blockClass":"text2" 
+    }
+  },
+  "menu-item#ventawha":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Venta por WhatsApp, Click acá!!!",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#servicio":{
+    "children":[
+      "menu-item#servicio"
+    ],
+    "props":{
+    "blockClass":"text3" 
+    }
+  },
+  "menu-item#servicio":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Servicio al cliente",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "flex-layout.row#banner_topp":{
+    "children":[ 
+      "menu#banco",
+      "menu#seguro",
+      "menu#sodimac",
+      "menu#linio",
+      "menu#crate"
+    ],
+    "props":{
+    "blockClass":"row_banner_topp",
+    "colGap":2   
+    }
+  },
+  "menu#banco":{
+    "children":[
+      "menu-item#banco"
+    ],
+    "props":{
+    "blockClass":"text4" 
+    }
+  },
+  "menu-item#banco":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Banco",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  "menu#seguro":{
+    "children":[
+      "menu-item#seguro"
+    ],
+    "props":{
+    "blockClass":"text5" 
+    }
+  },
+  "menu-item#seguro":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Seguro",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#sodimac":{
+    "children":[
+      "menu-item#sodimac"
+    ],
+    "props":{
+    "blockClass":"text6" 
+    }
+  },
+  "menu-item#sodimac":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Sodimac",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#linio":{
+    "children":[
+      "menu-item#linio"
+    ],
+    "props":{
+    "blockClass":"text7" 
+    }
+  },
+  "menu-item#linio":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Linio",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },"menu#crate":{
+    "children":[
+      "menu-item#crate"
+    ],
+    "props":{
+    "blockClass":"text8" 
+    }
+  },
+  "menu-item#crate":{
+    "props":{
+      "id":"ventastel",
+      "orientation":"horizontalAlign",
+      "type":"custom",  
+      "itemProps":{
+        "type":"external",
+        "href":"#",
+        "noFollow":true,
+        "tagTitle":"ventastel",
+        "text":"Crate&Barrel",  
+        "orientation":"horizontalAlign"
+      }
+    }
+  },
+  
+  "modal-trigger#loginn": {
+    "children": [
+      "flex-layout.row#usuarioo",
+      "modal-layout#login"
+    ]
+  },
+  "flex-layout.row#usuarioo": {
+    "children": [
+      "image#login",
+      "rich-text#login"
+    ],
+    "props": {
+      "blockClass": "icon-login"
+    }
+  },
+  "image#login": {
+    "props": {
+      "src": "assets/img/usuario.svg",
+      "maxWith": 30
+    }
+  },
+  "rich-text#login": {
+    "props": {
+      "text": "Inicia sesion"
+    }
+  },
+/*   "modal-layout#login": {
+    "children": [
+      "login-content"
+    ]
+  }, */
+  
+  "modal-trigger#compras": {
+    "children": [
+      "flex-layout.row#compras"
+    ]
+  },
+  "flex-layout.row#compras": {
+    "children": [
+      "image#compras",
+      "rich-text#compras"
+    ],
+    "props": {
+      "blockClass": "icon-compras"
+    }
+  },
+  "image#compras": {
+    "props": {
+      "src": "assets/img/compras.svg",
+      "maxWith": 30
+    }
+  },
+  "rich-text#compras": {
+    "props": {
+      "text": "Mis compras"
+    }
+  },
+  /* "modal-layout#compras": {
+    "children": [
+      "login-content"
+    ]
+  }, */
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "header-row#header_middle": {
+    "title": "header medio",
+    "children": [
+     /*  "drawer#header__mobile--menu" */
+     "logo#header__top--logo",
+     "flex-layout.row#mega-menu",
+     "header-spacer", 
+     "search-bar",
+     /*  "login", */
+     "modal-trigger#loginn",
+     "modal-trigger#compras",
+     "minicart.v2",
+     "flex-layout.row#4-desktop"
     
-"header-layout.desktop":{
-        "title":"header desktop",
-        "children":[
-            "header-row#header__top"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+ "header-row#header__down": {
+    "title": "headder down",
+    "children": [
+      "flex-layout.row#banner_down"
+    ],
+    "props":{
+      "blockClass":"header_down"
+    }
+  },
 
-        ]
+  "flex-layout.row#banner_down":{
+    "children":[
+      "menu#ventatel",
+      "menu#ventawha",
+      "menu#servicio"
+    ],
+    "props":{
+    "blockClass":"row_banner_top",
+    "colGap":5   
+    }
+  },
 
 
+
+
+
+
+  "drawer#header__mobile--menu": {
+    "children": [
+      "menu#header_menu"
+    ],
+    "props": {
+      "orientation": "horizontalAlign",
+      "slideDirection": "horizontal",
+      "blockClass": "drawer_menu"
+    }
+  },
+  "menu#header_menu": {
+    "children": [
+      "menu-item#department_one",
+      "menu-item#department_two",
+      "menu-item#department_three",
+      "menu-item#department_four",
+      "menu-item#department_five",
+      "menu-item#department_six",
+      "menu-item#department_seven",
+      "menu-item#department_eight",
+      "menu-item#department_nine",
+      "menu-item#department_teen",
+      "menu-item#department_eleven",
+      "menu-item#department_tweleve",
+      "menu-item#department_thirteen",
+      "menu-item#department_fourteen",
+      "menu-item#department_fifteen",
+      "menu-item#department_sixteen",
+      "menu-item#department_seventeen",
+      "menu-item#department_eighteen"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department_one": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cyber",
+        "text": "Cyber"
+      }
     },
-    "header-layout.mobile":{
-        "title":"header mobile",
-        "children":[
-            "header-row#header__top",
-            "header-row#header_middle"
-
-        ]
-
-
-    },
-
-    "header-row#header__top":{
-        "title":"headder top",
-        "children":[
-            "logo#header__top--logo",
-            "header-spacer", 
-            "search-bar",
-            "login",
-            "minicart.v2"
-
-        ]
-    },
-    "logo#header__top--logo":{
-        "title":"logo",
-        "props":{
-            "url":"assets/img/falabella.png",
-            "width":150,
-            "href":"#"
-        }
-    },
-    "login":{
-        "props": {
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true
-           
-          }
-    },
-    
-    "header-row#header_middle":{
-        "title":"header medio",
-        "children":[
-            "drawer#header__mobile--menu"
-        ],
-        "props":{
-            "blockClass":"header__middle"
-        }
-    },
-    
-        "drawer#header__mobile--menu": {
-           "children": [
-             "menu#header_menu"
-           ],
-           "props":{
-             "orientation":"horizontalAlign",
-             "blockClass":"drawer_menu"
-           }
-         },
-         "menu#header_menu": {
-           "children": [
-           "menu-item#department_one",
-           "menu-item#department_two",
-           "menu-item#department_three",
-           "menu-item#department_four",
-           "menu-item#department_five",
-           "menu-item#department_six",
-           "menu-item#department_seven",
-           "menu-item#department_eight",
-           "menu-item#department_nine",
-           "menu-item#department_teen",
-           "menu-item#department_eleven",
-           "menu-item#department_tweleve",
-           "menu-item#department_thirteen",
-           "menu-item#department_fourteen",
-           "menu-item#department_fifteen",
-           "menu-item#department_sixteen",
-           "menu-item#department_seventeen",
-           "menu-item#department_eighteen"
-         ],
-         "props":{
-           "orientation":"vertical"
-         }
-       },
-           "menu-item#department_one": {
-             "props": {
-               "id":"department_uno",
-               "type":"custom",
-               "itemProps":{
-                 "type":"external",
-                 "href": "#",
-                 "noFollow":true,
-                 "tagTitle":"Cyber",
-                 "text":"Cyber"
-               }
-             },
-             "blocks":["submenu#department_one"]
-           },
-           "submenu#department_one":{
-             "children":[
-               "menu#department_one"
-             ],
-             "props":{
-               "orientation":"horizontalAlign"
-             }
-           },
-           "menu#department_one":{
-             "children":[
-               "menu-item#category_one",
-               "menu-item#category_two"
-             ]
-           },
-           "menu-item#category_one":{
-             "props": {
-               "id":"category_one",
-               "type":"custom",
-               "itemProps":{
-                 "type":"external",
-                 "href": "#",
-                 "noFollow":true,
-                 "tagTitle":"Moda Mujer",
-                 "text":"Moda Mujer"
-               }
-             }
-           },
-           "menu-item#category_two":{
-             "props": {
-               "id":"category_one",
-               "type":"custom",
-               "itemProps":{
-                 "type":"external",
-                 "href": "#",
-                 "noFollow":true,
-                 "tagTitle":"Calzado",
-                 "text":"Calzado"
-               }
-             }
-           },"menu-item#department_sixteen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Tecnología",
-      "text":"Tecnología"
+    "blocks": [
+      "submenu#department_one"
+    ]
+  },
+  "submenu#department_one": {
+    "children": [
+      "menu#department_one"
+    ],
+    "props": {
+      "orientation": "horizontalAlign"
     }
-  }
-},
-           "menu-item#department_two": {
-             "props": {
-               "id":"department_uno",
-               "type":"custom",
-               "itemProps":{
-                 "type":"external",
-                 "href": "#",
-                 "noFollow":true,
-                 "tagTitle":"Celulares",
-                 "text":"Celulares"
-               }
-             }
-         },
-         "menu-item#department_three": {
-           "props": {
-             "id":"department_uno",
-             "type":"custom",
-             "itemProps":{
-               "type":"external",
-               "href": "#",
-               "noFollow":true,
-               "tagTitle":"Electrodomésticos",
-               "text":"Electrodomésticos"
-             }
-           }
-       },
-       "menu-item#department_four": {
-         "props": {
-           "id":"department_uno",
-           "type":"custom",
-           "itemProps":{
-             "type":"external",
-             "href": "#",
-             "noFollow":true,
-             "tagTitle":"Muebles",
-             "text":"Muebles"
-           }
-         }
-     },
-     "menu-item#department_five": {
-       "props": {
-         "id":"department_uno",
-         "type":"custom",
-         "itemProps":{
-           "type":"external",
-           "href": "#",
-           "noFollow":true,
-           "tagTitle":"Dormitorio",
-           "text":"Dormitorio"
-         }
-       }
-   },
-   "menu-item#department_six": {
-     "props": {
-       "id":"department_uno",
-       "type":"custom",
-       "itemProps":{
-         "type":"external",
-         "href": "#",
-         "noFollow":true,
-         "tagTitle":"Decohogar",
-         "text":"Decohogar"
-       }
-     }
- },
- "menu-item#department_seven": {
-   "props": {
-     "id":"department_uno",
-     "type":"custom",
-     "itemProps":{
-       "type":"external",
-       "href": "#",
-       "noFollow":true,
-       "tagTitle":"Zapatos",
-       "text":"Zapatos"
-     }
-   }
-},
-"menu-item#department_eight": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Mujer",
-      "text":"Mujer"
+  },
+  "menu#department_one": {
+    "children": [
+      "menu-item#category_one",
+      "menu-item#category_two"
+    ]
+  },
+  "menu-item#category_one": {
+    "props": {
+      "id": "category_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Moda Mujer",
+        "text": "Moda Mujer"
+      }
     }
-  }
-},
-"menu-item#department_nine": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Hombre",
-      "text":"Hombre"
+  },
+  "menu-item#category_two": {
+    "props": {
+      "id": "category_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Calzado",
+        "text": "Calzado"
+      }
     }
-  }
-},
-"menu-item#department_teen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Relojes y Accesorios",
-      "text":"Relojes y Accesorios"
+  },
+  "menu-item#department_sixteen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tecnología",
+        "text": "Tecnología"
+      }
     }
-  }
-},
-"menu-item#department_eleven": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Perfumes y Belleza",
-      "text":"Perfumes y Belleza"
+  },
+  "menu-item#department_two": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
     }
-  }
-},
-"menu-item#department_tweleve": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Deportes",
-      "text":"Deportes"
+  },
+  "menu-item#department_three": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrodomésticos",
+        "text": "Electrodomésticos"
+      }
     }
-  }
-},
-"menu-item#department_thirteen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Vestuario infantil",
-      "text":"Vestuario infantil"
+  },
+  "menu-item#department_four": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
     }
-  }
-},
-"menu-item#department_fourteen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Juguetería",
-      "text":"Juguetería"
+  },
+  "menu-item#department_five": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Dormitorio",
+        "text": "Dormitorio"
+      }
     }
-  }
-},
-"menu-item#department_fifteen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Mundo bebé",
-      "text":"Mundo bebé"
+  },
+  "menu-item#department_six": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Decohogar",
+        "text": "Decohogar"
+      }
     }
-  }
-},
-
-"menu-item#department_seventeen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Mascotas",
-      "text":"Mascotas"
+  },
+  "menu-item#department_seven": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      }
     }
-  }
-},
-"menu-item#department_eighteen": {
-  "props": {
-    "id":"department_uno",
-    "type":"custom",
-    "itemProps":{
-      "type":"external",
-      "href": "#",
-      "noFollow":true,
-      "tagTitle":"Descubre más categorías",
-      "text":"Descubre más categorías"
+  },
+  "menu-item#department_eight": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    }
+  },
+  "menu-item#department_nine": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#department_teen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Relojes y Accesorios",
+        "text": "Relojes y Accesorios"
+      }
+    }
+  },
+  "menu-item#department_eleven": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Perfumes y Belleza",
+        "text": "Perfumes y Belleza"
+      }
+    }
+  },
+  "menu-item#department_tweleve": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    }
+  },
+  "menu-item#department_thirteen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Vestuario infantil",
+        "text": "Vestuario infantil"
+      }
+    }
+  },
+  "menu-item#department_fourteen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Juguetería",
+        "text": "Juguetería"
+      }
+    }
+  },
+  "menu-item#department_fifteen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mundo bebé",
+        "text": "Mundo bebé"
+      }
+    }
+  },
+  "menu-item#department_seventeen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mascotas",
+        "text": "Mascotas"
+      }
+    }
+  },
+  "menu-item#department_eighteen": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Descubre más categorías",
+        "text": "Descubre más categorías"
+      }
     }
   }
 }
-       }

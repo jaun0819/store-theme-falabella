@@ -160,13 +160,14 @@
   
 }
 .searchBarContainer{
-    transform: translateY(10px);
-    margin-right: 20%;
+    transform: translateY(-21px);
+    margin-right: 262px;
     
 }
 .logoLink{
-    transform: translateY(1px);
-    margin-left: -117px;
+    transform: translateY(-46px);
+    margin-left: -195px;
+    z-index: 2;
 }
 .searchIcon{
     margin-left: 17px;
@@ -393,3 +394,7 @@
         padding: 10px;
     }
 } */
+.imageElement--iconn-login{
+    width: 100px;
+    transform: translateY(-5px);
+}

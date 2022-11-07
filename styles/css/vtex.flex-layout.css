@@ -157,3 +157,16 @@ transform: translateY(-5px);
         padding: 10px;
     }
 } */
+.flexRow--icon-login{
+    transform: translateY(-11px);
+    width: 141px;
+}
+.flexColChild--imagen_perfumes{
+    width: 0;
+}
+.flexRow--row_banner_topp{
+    margin-left: 282px;
+}
+.flexRowContent--icon-compras{
+    transform: translateY(-11px);
+}

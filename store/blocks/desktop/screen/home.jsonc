@@ -2,6 +2,7 @@
     "responsive-layout.desktop":{
         "children":[
           /* "header-layout.desktop",  */
+           
             "image#home__envios",
             "slider-layout#home__slider--children",
             "flex-layout.row#seccion-beneficios",

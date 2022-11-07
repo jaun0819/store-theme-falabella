@@ -1,0 +1,48 @@
+{
+    "header-row#header__top--mobile": {
+        "title": "header top mobile",
+        "children": [
+            "logo#header__top--logo",
+          "drawer#header__mobile--menu",
+          /*  "login", */
+          "modal-trigger#login",
+          "minicart.v2"
+        ]
+      },
+    
+      "modal-trigger#login": {
+        "children": [
+          "flex-layout.row#usuario",
+          "modal-layout#login"
+        ],
+        "props":{
+          "blockClass":"icon-usuario"
+        }
+      },
+      "flex-layout.row#usuario": {
+        "children": [
+          "image#login",
+          "rich-text#loginn"
+        ],
+        "props": {
+          "blockClass": "icon-login"
+        }
+      },
+      "image#login": {
+        "props": {
+          "src": "assets/img/usuario.svg",
+          "width": 100,
+          "blockClass":"iconn-login"
+        }
+      },
+      "rich-text#loginn": {
+        "props": {
+          /* "text": "Inicia sesion" */
+        }
+      },
+      "modal-layout#login": {
+        "children": [
+          "login-content"
+        ]
+      }
+}
