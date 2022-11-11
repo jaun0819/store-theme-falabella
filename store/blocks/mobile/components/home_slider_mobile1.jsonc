@@ -1,0 +1,52 @@
+{
+    "slider-layout#home__slidermobile--children":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":1,
+            "tablet":1,
+            "mobile":1
+          },
+          "infinite":true,
+          "blockClass":"home__slider_mobile",
+          "autoplay":{
+            "timeout":3000,
+            "stopOnHver":true
+          }
+        },
+        "children":["image#home__slider--oneee",
+              "image#home__slider--twooo",
+              "image#home__slider--threee",
+              "image#home__slider--fourr",
+              "image#home__slider--fivee"
+            ] 
+            },
+    
+            "image#home__slider--oneee":{
+              "props":{
+                "src":"assets/img/cuadrado_mobile.png"
+              }
+            },
+              "image#home__slider--twooo":
+              {
+                "props":{
+                "src":"assets/img/iphone_mobile.png"
+              }
+              },
+              "image#home__slider--threee":
+              {
+                "props":{
+                "src":"assets/img/moda_mobile.png"
+              }
+            },
+            "image#home__slider--fourr":{
+                "props":{
+                  "src":"assets/img/vestido_mobile.png"
+                }
+            },
+              "image#home__slider--fivee":{
+                "props":{
+                  "src":"assets/img/perfumes_mobile.png"
+                }
+              }
+            
+}

@@ -163,7 +163,7 @@ transform: translateY(124px);
     width: 0;
 } */
 .flexRow--row_banner_topp{
-    margin-left: 266px;
+    margin-left: 410px;
 }
 .flexRowContent--icon-compras{
     transform: translateY(-11px);
@@ -197,4 +197,37 @@ transform: translateY(124px);
 }
 .flexRow--content_products{
     transform: translateY(161px);
+}
+.flexRow--icon-loginn{
+    margin-bottom: 15px;
+}
+.flexRow--contenedor_navidadd{
+    transform: translateY(65px);
+}
+.flexRow--contenedor_tecnolo{
+    transform: translateY(141px);
+}
+.flexRow--contenedor_modaa{
+    transform: translateY(151px);
+}
+.flexRow--contenedor_calzado{
+    transform: translateY(161px);
+}
+.flexRow--contenedor_ninos{
+    transform: translateY(169px);
+}
+.flexRow--contenedor_belleza{
+    transform: translateY(178px);
+}
+.flexRow--contenedor_decohogar{
+    transform: translateY(184px);
+}
+.flexRow--contenedor_deportes{
+    transform: translateY(191px);
+}
+.flexRow--content_productos{
+    transform: translateY(211px);   
+}
+.flexRow--home__section--twooo{
+    transform: translateY(198px);
 }

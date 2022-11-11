@@ -12,7 +12,11 @@
 }
 .headerRowBackground--header__middle{
     transform: translateY(10px);
+     
     
+}
+.headerRow--header__middle{
+    margin-left: 106px;
 }
 .headerRowContainer--header_mobile{
     background-color: black;

@@ -12,6 +12,7 @@
   "header-row#header__top": {
     "title": "headder top",
     "children": [
+       "logo#header__top--logo",
       "flex-layout.row#banner_top",
       "flex-layout.row#banner_topp"
      
@@ -301,7 +302,7 @@
     "title": "header medio",
     "children": [
      /*  "drawer#header__mobile--menu" */
-     "logo#header__top--logo",
+     /* "logo#header__top--logo", */
      "flex-layout.row#mega-menu",
      "header-spacer", 
      "search-bar",
