@@ -10,7 +10,7 @@
     "rich-text#home__section--two":{
         "title":"texto tecnologia",
         "props":{
-            "text":"Tecnología",
+            "text":"Últimas Tendencias en Falabella.com",
             "blockClass":"section__two--title"
 
         }

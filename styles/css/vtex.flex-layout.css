@@ -10,10 +10,10 @@
     
 } */
 .flexRow--contenedor_beneficios{
- background-color: rgb(187,224,50);
+  
 border-bottom: 50px; 
 margin-left: -168px;
-transform: translateY(-5px);
+transform: translateY(166px);
  
 }
 .flexRow--home__section--one{
@@ -118,10 +118,9 @@ transform: translateY(-5px);
     height: 100%;
 }
 .flexRow--home__section--two{
-    transform: translateY(184px);
-    background-color: rgb(164,212,30);
-    border-radius: 1.7em;
+    transform: translateY(82px);
 }
+
 .flexRow--contenedor_tecno{
     transform: translateY(208px);
     margin-right: 25px;
@@ -133,8 +132,7 @@ transform: translateY(-5px);
 }
 .flexRow--home__section--four{
     transform: translateY(144px);
-    background-color: rgb(164,212,30);
-    border-radius: 1.7em;
+    
 }
 .flexRow--home__section--five{
     transform: translateY(144px);
@@ -161,12 +159,39 @@ transform: translateY(-5px);
     transform: translateY(-11px);
     width: 141px;
 }
-.flexColChild--imagen_perfumes{
+/* .flexColChild--imagen_perfumes{
     width: 0;
-}
+} */
 .flexRow--row_banner_topp{
-    margin-left: 282px;
+    margin-left: 266px;
 }
 .flexRowContent--icon-compras{
     transform: translateY(-11px);
+}
+.flexRow--icon-compras:hover{
+    border-bottom: 2px solid greenyellow;
+}
+.flexRowContent{
+    display: flex;
+}
+.flexRowContent--icon-compras{
+    width: 133px;
+}
+.flexRow--contenedor_navidad{
+    
+    transform: translateY(66px);
+}
+.flexRowContent--contenedor_navidad{
+    margin-left: -297px;
+}
+.flexRowContent--contenedor_ofertass{
+    gap: 3rem;
+}
+.flexRowContent--icon-check{
+    width: 92px;
+    height: 23px;
+}
+.flexRow--icon-check{
+    transform: translateY(44px);
+    margin-left: 433px;
 }

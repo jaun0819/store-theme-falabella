@@ -1,8 +1,8 @@
-.menuContainerNav{
+  .menuContainerNav{
     z-index: 2;
 }
 .triggerContainer{
-    margin-left: -1537px;
+    margin-left: -1713px;
     transform: translateY(-8px);
 }
 .styledLinkContent:hover{
@@ -15,3 +15,14 @@
 .justify-between{
     color: #6E7578;
 }
+.menuContainerNav{
+    transform: translateY(27px);
+    height: 571px;
+}
+.menuContainer{
+    height: 571px;
+    overflow: visible;
+} 
+.menuContainerNav{
+    z-index: 2;
+} 

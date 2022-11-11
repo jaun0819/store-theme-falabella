@@ -2,9 +2,8 @@
     "flex-layout.row#seccion-fertaa":{
         "title":"seccion ofertas",
         "children":[
-            "flex-layout.col#lavadora",
-            "flex-layout.col#nevera",
-            "flex-layout.col#tenis"
+            "flex-layout.col#pcc",
+            "flex-layout.col#teniss"
 
 
         ],
@@ -14,43 +13,33 @@
             "colGap":5
     }
     },
-    "flex-layout.col#lavadora":{
+    "flex-layout.col#pcc":{
         "children":[
-         "image#lavadora"   
+         "image#pcc"   
         ],
         "props":{
-            "blockClass":"imagen_lavadora"
+            "blockClass":"imagen_pcc"
 
         }
         
     },
-    "flex-layout.col#nevera":{
+    "flex-layout.col#teniss":{
         "children":[
-         "image#nevera"   
+         "image#teniss"   
         ],
         "props":{
-            "blockClass":"imagen_nevera"
+            "blockClass":"imagen_teniss"
 
         }
         
     },
-    "flex-layout.col#tenis":{
-        "children":[
-         "image#tenis"   
-        ],
-        "props":{
-            "blockClass":"imagen_tenis"
-
-        }
-        
-    },
-    "image#lavadora":{
+    "image#pcc":{
         "title":"LAVADORA_IMAGE",
         "props":{
-            "src":"assets/img/lavadora.png",
-            "maxWidth":1000,
+            "src":"assets/img/pcc.png",
+            "maxWidth":900,
             "title":"lavadora",
-            "blockClass":"lavadora_image",
+            "blockClass":"pcc_image",
             "link":{
                 "url":"#",
                 "newTap":true
@@ -58,27 +47,13 @@
         }
 
     },
-    "image#nevera":{
+    "image#teniss":{
         "title":"NEVERA_IMAGE",
         "props":{
-            "src":"assets/img/nevera.png",
-            "maxWidth":1000,
+            "src":"assets/img/teni.png",
+            "maxWidth":900,
             "title":"nevera",
-            "blockClass":"nevera_image",
-            "link":{
-                "url":"#",
-                "newTap":true
-            }
-        }
-
-    },
-    "image#tenis":{
-        "title":"TENIS_IMAGE",
-        "props":{
-            "src":"assets/img/tenis.png",
-            "maxWidth":1000,
-            "title":"tenis",
-            "blockClass":"tenis_image",
+            "blockClass":"teniss_image",
             "link":{
                 "url":"#",
                 "newTap":true

@@ -2,8 +2,11 @@
     "header-layout.mobile":{
         "title":"header mobile",
         "children":[
-            "header-row#header__top--mobile",
-            "header-row#header__middle--mobile"
-        ]
+            "header-row#header__top--mobile"/* ,
+            "header-row#header__middle--mobile" */
+        ],
+        "props":{
+             
+        }
         }
 }

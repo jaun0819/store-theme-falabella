@@ -1,5 +1,5 @@
 .paginationDotsContainer--home__slider{
-    transform: translateY(50px);
+    transform: translateY(34px);
     color: gray;
 }
 .sliderLayoutContainer--home__slider{
@@ -8,7 +8,25 @@
     
 }
 .sliderLayoutContainer--home__slider{
-    transform: translateY(-4px);
+    transform: translateY(-5px);
+}
+.sliderLayoutContainer--home__slider{
+    transform: translateY(-5px);
+}
+.sliderLayoutContainer--home__sliderr{
+    transform: translateY(84px);
+}
+.paginationDotsContainer--home__sliderr{
+    transform: translateY(31px);
+    
+}
+.paginationDot--home__sliderr{
+    background-color: #939393;
+    transform: scale(1.375);
+}
+.paginationDot--home__slider{
+    background-color: #939393;
+    transform: scale(1.375);
 }
 /* .paginationDotsContainer--home_slider{
     transform: translateY(30px);

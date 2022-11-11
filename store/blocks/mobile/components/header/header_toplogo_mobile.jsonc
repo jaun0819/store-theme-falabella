@@ -1,0 +1,13 @@
+{
+    "logo#header__top--logomobile": {
+        "title": "logo",
+        "props": {
+          "url": "assets/img/falabella.png",
+           
+          "mobileWidth": 82,
+          "mobileHeight": 100,
+          "href": "#",
+          "blockClass":"logo_falabella"
+        }
+      }
+}
