@@ -13,7 +13,7 @@
   
 border-bottom: 50px; 
 margin-left: -168px;
-transform: translateY(166px);
+transform: translateY(124px);
  
 }
 .flexRow--home__section--one{
@@ -194,4 +194,7 @@ transform: translateY(166px);
 .flexRow--icon-check{
     transform: translateY(44px);
     margin-left: 433px;
+}
+.flexRow--content_products{
+    transform: translateY(161px);
 }

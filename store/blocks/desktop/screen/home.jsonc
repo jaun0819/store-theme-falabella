@@ -9,16 +9,13 @@
             "flex-layout.row#seccion-fertaa",
             "flex-layout.row#home__section--two",
             "slider-layout#home__slider2--children",
-            
             "flex-layout.row#seccion-beneficios",
-            "flex-layout.row#home__section--four"
-             
+            "flex-layout.row#global__product--listaa",
+            "flex-layout.row#home__section--four" 
             /* ,
             "flex-layout.row#seccion-solox",
-            "image#home__descuento",
-            ,
-            "flex-layout.row#seccion-ferta",
-            ,
+            "image#home__descuento", ,
+            "flex-layout.row#seccion-ferta",,
             "flex-layout.row#seccion-fertaaa",
             "flex-layout.row#seccion-fertaaaa",
             "flex-layout.row#seccion-fertaaaaa",
