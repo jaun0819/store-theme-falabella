@@ -156,19 +156,19 @@
 }
 .autoCompleteOuterContainer{
    height: 20px;
-   width: 1000px;
+   width: 1260px;
   
 }
 .searchBarContainer{
     transform: translateY(-21px);
-    margin-right: 262px;
+    margin-right: 486px;
     
 }
-.logoLink{
-    transform: translateY(-46px);
-    margin-left: -195px;
-    z-index: 2;
-}
+        .logoLink--logo_fala{
+            transform: translateY(-46px);
+           /*  margin-left: -388px; */
+            z-index: 2;
+        }
 .searchIcon{
     margin-left: 17px;
 }
@@ -397,4 +397,7 @@
 .imageElement--iconn-login{
     width: 100px;
     transform: translateY(-5px);
+}
+.imageElementLink--pcc_image{
+    margin-left: -190px;
 }

@@ -4,7 +4,8 @@
         "props": {
           "url": "assets/img/falabella.png",
           "width": 150,
-          "href": "#"
+          "href": "#",
+          "blockClass":"logo_fala"
         }
       }
 }

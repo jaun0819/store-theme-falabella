@@ -2,12 +2,17 @@
     "header-row#header__top--mobile": {
         "title": "header top mobile",
         "children": [
-            "logo#header__top--logo",
+          "logo#header__top--logomobile",
           "drawer#header__mobile--menu",
-          /*  "login", */
-          "modal-trigger#login",
-          "minicart.v2"
-        ]
+         "modal-trigger#login",
+          "minicart.v2#phone"/* ,
+          "search-bar#mobile"  */
+
+        ],
+        "props":{"blockClass":"header_mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true}
       },
     
       "modal-trigger#login": {
@@ -16,7 +21,7 @@
           "modal-layout#login"
         ],
         "props":{
-          "blockClass":"icon-usuario"
+          "blockClass":"icon-usuarioo"
         }
       },
       "flex-layout.row#usuario": {
@@ -25,14 +30,14 @@
           "rich-text#loginn"
         ],
         "props": {
-          "blockClass": "icon-login"
+          "blockClass": "icon-loginn"
         }
       },
       "image#login": {
         "props": {
           "src": "assets/img/usuario.svg",
           "width": 100,
-          "blockClass":"iconn-login"
+          "blockClass":"iconn-loginn"
         }
       },
       "rich-text#loginn": {
@@ -44,5 +49,41 @@
         "children": [
           "login-content"
         ]
-      }
+      },
+      "flex-layout.row#logo":{
+        "children":[
+          "logo#header__top--logomobile",
+         "drawer#header__mobile--menu"
+        ]
+      },
+      "flex-layout.col#logo":{
+        "children":[
+         
+          
+        ]
+      },
+          "flex-layout.col#menu":{
+            "children":[
+               
+            ]
+          },
+          "minicart.v2#phone":{
+              "props":{
+                  "MinicartIcon":"icon#cart-icon",
+                  "itemCountMode":"total",/* ,
+                  "quantityDisplay":"always" */
+                  "blockClass":"cart_mobile"
+              }
+          }
+          /* "flex-layout.row#contenedor_logo":{
+            "children":[
+              "logo#header__top--logomobile"
+            ]
+          },
+          "flex-layout.row#contenedor_menu":{
+            "children":[
+              
+            ]
+          } */
+
 }

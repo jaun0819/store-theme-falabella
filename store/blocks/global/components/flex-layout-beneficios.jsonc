@@ -57,7 +57,7 @@
         "title":"CMR_IMAGE",
         "props":{
             "src":"assets/img/cmr.png",
-            "maxWidth":1000,
+            "maxWidth":1200,
             "title":"cmr",
             "blockClass":"cmr_image",
             "link":{
@@ -71,7 +71,7 @@
         "title":"CMR_IMAGE",
         "props":{
             "src":"assets/img/beneficio.png",
-            "maxWidth":1000,
+            "maxWidth":1200,
             "title":"cmr",
             "blockClass":"cmr_image",
             "link":{
@@ -85,7 +85,7 @@
         "title":"CMR_IMAGE",
         "props":{
             "src":"assets/img/devoluciones.png",
-            "maxWidth":1000,
+            "maxWidth":1200,
             "title":"cmr",
             "blockClass":"cmr_image",
             "link":{
@@ -99,7 +99,7 @@
         "title":"CMR_IMAGE",
         "props":{
             "src":"assets/img/soat.png",
-            "maxWidth":1000,
+            "maxWidth":1200,
             "title":"cmr",
             "blockClass":"cmr_image",
             "link":{

@@ -1,16 +1,44 @@
 {
     "flex-layout.row#home__section--four":{
         "children":[
+            "modal-trigger#check",
             "rich-text#home__section--four"
         ],
         "props":{
             "blockClass":"home__section--four"
         }
     },
+    "modal-trigger#check":{
+        "children": [
+            "flex-layout.row#check"
+          ]
+    },
+   "flex-layout.row#check": {
+        "children": [
+          "image#check"
+          
+        ],
+        "props": {
+          "blockClass": "icon-check"
+        }
+      },
+      "image#check": {
+        "props": {
+          "src": "assets/img/check.png",
+          "maxWith": 10,
+          "blockClass":"check"
+        }
+      },
+      /* "rich-text#compras": {
+        "props": {
+          "text": "Encuéntralo en Falabella.com",
+          "blockClass":"section__four--title"
+        }
+      } */
     "rich-text#home__section--four":{
         "title":"texto tecnologia",
         "props":{
-            "text":"Mujer",
+            "text":"Encuéntralo en Falabella.com",
             "blockClass":"section__four--title"
 
         }

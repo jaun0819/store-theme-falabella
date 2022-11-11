@@ -6,4 +6,6 @@
     --card-descriptions: #c47373;
     --promotion-flags: #525252;
   }
-  
+  .html{
+    overflow-x: hidden;
+  }

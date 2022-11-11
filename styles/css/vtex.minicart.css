@@ -1,6 +1,6 @@
 .openIconContainer{
     transform: translateY(170px);
-    margin-left: 30px;
+    margin-left: -3px;
    
 }
 .openIconContainer:hover{
@@ -10,4 +10,7 @@
     transform: translateY(-180px);
     
     
+}
+.minicartIconContainer--cart_mobile{
+    margin-left: -126px;
 }

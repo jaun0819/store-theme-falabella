@@ -3,7 +3,11 @@
         "title":"header mobile",
         "children":[
             "header-row#header__top--mobile",
-            "header-row#header__middle--mobile"
-        ]
+            "flex-layout.row#global__product--listaa"/* ,
+            "header-row#header__middle--mobile" */
+        ],
+        "props":{
+             
+        }
         }
 }
