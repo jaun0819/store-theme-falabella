@@ -3,11 +3,23 @@
         "title":"header mobile",
         "children":[
             "header-row#header__top--mobile",
-            "flex-layout.row#global__product--listaa"/* ,
+            "image#home__enviosmobile",
+            "slider-layout#home__slidermobile--children",
+            "flex-layout.row#seccion-navidadd",
+            "flex-layout.row#seccion-fertaaa",
+            "flex-layout.row#seccion-fertaaaa",
+            "flex-layout.row#seccion-tecnolo",
+            "flex-layout.row#seccion-modaa",
+            "flex-layout.row#seccion-calzado",
+            "flex-layout.row#seccion-niños",
+            "flex-layout.row#seccion-belleza",
+            "flex-layout.row#seccion-decohogar",
+            "flex-layout.row#seccion-deportes",
+            "flex-layout.row#home__section--twooo",
+            "slider-layout#home__slidermobile2--children",
+            "slider-layout#home__sliderbeneficios--children",
+            "flex-layout.row#global__productmobile--listaa"/* ,
             "header-row#header__middle--mobile" */
-        ],
-        "props":{
-             
-        }
+        ] 
         }
 }

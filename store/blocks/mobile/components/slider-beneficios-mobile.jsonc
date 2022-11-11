@@ -1,0 +1,45 @@
+{
+    "slider-layout#home__sliderbeneficios--children":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":1,
+            "tablet":1,
+            "mobile":1
+          },
+          "infinite":true,
+          "blockClass":"home__slider_mobileeee",
+          "autoplay":{
+            "timeout":3000,
+            "stopOnHver":true
+          }
+        },
+        "children":["image#home__slider--oneeeee",
+              "image#home__slider--twooooo",
+              "image#home__slider--threeeee",
+              "image#home__slider--fourrrr"
+            ] 
+            },
+    
+            "image#home__slider--oneeeee":{
+              "props":{
+                "src":"assets/img/cmr.png"
+              }
+            },
+              "image#home__slider--twooooo":
+              {
+                "props":{
+                "src":"assets/img/beneficio.png"
+              }
+              },
+              "image#home__slider--threeeee":
+              {
+                "props":{
+                "src":"assets/img/devoluciones.png"
+              }
+            },
+            "image#home__slider--fourrrr":{
+                "props":{
+                  "src":"assets/img/soat.png"
+                }
+            }
+}

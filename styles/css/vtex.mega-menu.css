@@ -18,6 +18,7 @@
 .menuContainerNav{
     transform: translateY(27px);
     height: 571px;
+    /* margin-left: 83px; */
 }
 .menuContainer{
     height: 571px;

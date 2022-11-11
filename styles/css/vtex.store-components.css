@@ -165,9 +165,10 @@
     
 }
         .logoLink--logo_fala{
-            transform: translateY(-46px);
+            transform: inherit;
            /*  margin-left: -388px; */
             z-index: 2;
+            margin-left: -183px;
         }
 .searchIcon{
     margin-left: 17px;
@@ -400,4 +401,10 @@
 }
 .imageElementLink--pcc_image{
     margin-left: -190px;
+}
+.logoLink--logo_falabella{
+    width: 200px;
+   
+    margin-left: -35px;
+      
 }

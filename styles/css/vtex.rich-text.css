@@ -93,3 +93,11 @@ font-family: Lato,sans-serif;
 .wrapper--section__four--title{
     margin-left: -265px;
 }
+.paragraph--section__two-mobile{
+    font-size: 1.5625rem;
+    position: relative;
+    color: #323c47;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-bottom: 1.1875rem;
+}

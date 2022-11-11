@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#seccion-deportes":{
+        "title":"seccion ofertas",
+        "children":[
+            "flex-layout.col#deportes"
+            
+
+
+        ],
+        "props":{
+            "colJustify": "around",
+            "blockClass":"contenedor_deportes",
+            "colGap":5
+    }
+    },
+    "flex-layout.col#deportes":{
+        "children":[
+         "image#deportes"   
+        ],
+        "props":{
+            "blockClass":"imagen_deportes"
+
+        }
+        
+    },
+    "image#deportes":{
+        "title":"TECNO_IMAGE",
+        "props":{
+            "src":"assets/img/deportes.png",
+             
+            "title":"deportes",
+            "blockClass":"deportes_image",
+            "link":{
+                "url":"#",
+                "newTap":true
+            }
+        }
+
+    }
+}

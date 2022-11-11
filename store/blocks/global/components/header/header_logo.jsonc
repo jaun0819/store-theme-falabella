@@ -7,5 +7,25 @@
           "href": "#",
           "blockClass":"logo_fala"
         }
-      }
+      },
+      
+  "modal-trigger#logo": {
+    "children": [
+      "flex-layout.row#logo"
+    ]
+  },
+  "flex-layout.row#logo": {
+    "children": [
+      "image#logo"
+    ],
+    "props": {
+      "blockClass": "logo-falabe"
+    }
+  },
+  "image#logo": {
+    "props": {
+      "src": "assets/img/falabella.png",
+      "maxWith": 60
+    }
+  }
 }

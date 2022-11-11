@@ -1,5 +1,5 @@
 {
-    "slider-layout#home__slider2--children":{
+    "slider-layout#home__slider22--children":{
         "props":{
           "itemsPerPage":{
             "desktop":1,
@@ -21,12 +21,14 @@
             "image#home__slider--onee":{
               "props":{
                 "src":"assets/img/slider.png"
+                
               }
             },
               "image#home__slider--twoo":
               {
                 "props":{
                 "src":"assets/img/slider2.png"
+                 
               }
               } 
             
