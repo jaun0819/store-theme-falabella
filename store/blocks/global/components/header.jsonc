@@ -9,6 +9,10 @@
       },
       "header-layout.desktop": {
         "title": "Header Desktop",
+<<<<<<< HEAD
         "children": ["header-row#header__top" ,"header-row#header_middle","header-row#header__down"]
+=======
+        "children": ["header-row#header__top" ,"header-row#header_middle","header-row#header__down" ]
+>>>>>>> develop
       } 
 }

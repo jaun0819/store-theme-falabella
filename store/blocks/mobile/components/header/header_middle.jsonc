@@ -11,9 +11,9 @@
       },
       "search-bar#mobile":{
         "props":{
-            "width":300
-            
-
+            "width":300,
+            "placeholder":"¿Qué buscas?",
+          "blockClass":"search_mobile"
         }
       }
 }

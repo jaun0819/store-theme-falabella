@@ -17,18 +17,12 @@
 
 }
 .paragraph--section__two--title{
-    background-color: black;
-    border-radius: 10px;
-    width: 227px;
-     
-    margin-left: -87px;
-    height: 41px;
-
-    color: #bbe400;
-    font-size: .875rem;
-    font-weight: 900;
-    letter-spacing: .094rem;
-    font-family: Lato,sans-serif;
+    position: relative;
+    color: #323c47;
+    font-size: 2.25rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-bottom: 1.1875rem;
 }
 .paragraph--section__three--title{
     background-color: black;
@@ -45,18 +39,11 @@ letter-spacing: .094rem;
 font-family: Lato,sans-serif;
 }
 .paragraph--section__four--title{
-    background-color: black;
-    border-radius: 10px;
-    width: 227px;
-     
-    margin-left: -87px;
-    height: 41px;
-    
-    color: #bbe400;
-    font-size: .875rem;
-    font-weight: 900;
-    letter-spacing: .094rem;
-    font-family: Lato,sans-serif;
+    color: #4a4a4a;
+    font-size: 2.05rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .paragraph--section__five--title{
     background-color: black;
@@ -99,4 +86,18 @@ font-family: Lato,sans-serif;
     font-weight: 900;
     letter-spacing: .094rem;
     font-family: Lato,sans-serif;
+}
+.paragraph--section__two--title{
+    margin-left: -183px;
+}
+.wrapper--section__four--title{
+    margin-left: -265px;
+}
+.paragraph--section__two-mobile{
+    font-size: 1.5625rem;
+    position: relative;
+    color: #323c47;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-bottom: 1.1875rem;
 }

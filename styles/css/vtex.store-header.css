@@ -1,10 +1,23 @@
-.headerRowBackground{
-    /* background-color: black; */
-}
+
 .headerRowBackground--header__middle{
     background-color: white;
 }
 .headerRowBackground--header_top{
     background-color: rgb(51,51,51);
     
+}
+.headerRowBackground--header_down{
+    /* margin-left: 552px; */
+    /* transform: translateY(-36px); */
+}
+.headerRowBackground--header__middle{
+    transform: translateY(10px);
+     
+    
+}
+.headerRow--header__middle{
+    margin-left: 106px;
+}
+.headerRowContainer--header_mobile{
+    background-color: black;
 }

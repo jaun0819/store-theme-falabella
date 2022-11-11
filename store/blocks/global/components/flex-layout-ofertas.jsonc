@@ -1,85 +1,36 @@
 {
-    "flex-layout.row#seccion-ferta":{
+    "flex-layout.row#seccion-navidad":{
         "title":"seccion ofertas",
         "children":[
-            "flex-layout.col#celulares",
-            "flex-layout.col#audio",
-            "flex-layout.col#electro"
+            "flex-layout.col#navidad"
 
 
         ],
         "props":{
             "colJustify": "around",
-            "blockClass":"contenedor_ofertas",
+            "blockClass":"contenedor_navidad",
             "colGap":5
             
     }
     },
-    "flex-layout.col#celulares":{
+    "flex-layout.col#navidad":{
         "children":[
-         "image#celular"   
+         "image#navidad"   
         ],
         "props":{
 
-            "blockClass":"imagen_celular"
+            "blockClass":"imagen_navidad"
            
 
         }
     },
-    "flex-layout.col#audio":{
-        "children":[
-         "image#audio" 
-        ],
-        "props":{
-            "blockClass":"imagen_audio"
-
-        }   
-    },
-    "flex-layout.col#electro":{
-        "children":[
-         "image#electro"   
-        ],
-        "props":{
-            "blockClass":"imagen_electro"
-
-        }
-        
-    },
-    "image#celular":{
+    "image#navidad":{
         "title":"CELULAR_IMAGE",
         "props":{
-            "src":"assets/img/celular.png",
-            "maxWidth":1000,
+            "src":"assets/img/navidad.png",
+            "maxWidth":2000,
             "title":"celular",
-            "blockClass":"celular_image",
-            "link":{
-                "url":"#",
-                "newTap":true
-            }
-        }
-
-    },
-    "image#audio" :{
-        "title":"AUDIO_IMAGE",
-        "props":{
-            "src":"assets/img/audifono.png",
-            "maxWidth":1000,
-            "title":"audifonos",
-            "blockClass":"audio_image",
-            "link":{
-                "url":"#",
-                "newTap":true
-            }
-        }
-
-    },
-    "image#electro":{
-        "title":"ELECTRO_IMAGE",
-        "props":{
-            "src":"assets/img/electro.png",
-            "maxWidth":1000,
-            "title":"electrodomesticos",
-            "blockClass":"electro_image",
+            "blockClass":"navidad_image",
             "link":{
                 "url":"#",
                 "newTap":true

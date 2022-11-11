@@ -1,0 +1,12 @@
+{
+    "image#home__enviosmobile":{
+        "title":"envio",
+        "props":{
+           
+            "src":"assets/img/envios_mobile.png",
+             "href": "#",
+            "blockClass":"envios--tittle"
+            
+        }
+    }
+}

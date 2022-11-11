@@ -1,0 +1,35 @@
+{
+    "slider-layout#home__slider22--children":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":1,
+            "tablet":1,
+            "mobile":1
+          },
+          "infinite":true,
+          "blockClass":"home__sliderr",
+          "autoplay":{
+            "timeout":3000,
+            "stopOnHver":true
+          }
+        },
+        "children":["image#home__slider--onee",
+              "image#home__slider--twoo" 
+            ] 
+            },
+    
+            "image#home__slider--onee":{
+              "props":{
+                "src":"assets/img/slider.png"
+                
+              }
+            },
+              "image#home__slider--twoo":
+              {
+                "props":{
+                "src":"assets/img/slider2.png"
+                 
+              }
+              } 
+            
+}

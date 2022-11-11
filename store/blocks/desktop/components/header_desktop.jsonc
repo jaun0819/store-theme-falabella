@@ -12,6 +12,7 @@
   "header-row#header__top": {
     "title": "headder top",
     "children": [
+       "logo#header__top--logo",
       "flex-layout.row#banner_top",
       "flex-layout.row#banner_topp"
      
@@ -225,7 +226,7 @@
     }
   },
   
-  "modal-trigger#loginn": {
+  "modal-trigger#loginnn": {
     "children": [
       "flex-layout.row#usuarioo",
       "modal-layout#login"
@@ -274,7 +275,7 @@
   "image#compras": {
     "props": {
       "src": "assets/img/compras.svg",
-      "maxWith": 30
+      "maxWith": 60
     }
   },
   "rich-text#compras": {
@@ -301,12 +302,12 @@
     "title": "header medio",
     "children": [
      /*  "drawer#header__mobile--menu" */
-     "logo#header__top--logo",
+     /* "logo#header__top--logo", */
      "flex-layout.row#mega-menu",
      "header-spacer", 
      "search-bar",
      /*  "login", */
-     "modal-trigger#loginn",
+     "modal-trigger#loginnn",
      "modal-trigger#compras",
      "minicart.v2",
      "flex-layout.row#4-desktop"
@@ -318,7 +319,11 @@
   },
   "search-bar":{
     "props":{
+<<<<<<< HEAD
      "placeholder":"¿Qué buscas?" 
+=======
+      "placeholder":"¿Qué buscas?"
+>>>>>>> develop
     }
   },
  "header-row#header__down": {
@@ -338,8 +343,14 @@
       "menu#club",
       "menu#cmr",
       "menu#solicita",
+<<<<<<< HEAD
       "menu#falabella",
       "menu#beneficios"
+=======
+      "menu#fallabela",
+      "menu#beneficios"
+
+>>>>>>> develop
     ],
     "props":{
     "blockClass":"row_banner_down",
@@ -368,8 +379,12 @@
         "orientation":"horizontalAlign"
       }
     }
+<<<<<<< HEAD
   },
   "menu#horario":{
+=======
+  },"menu#horario":{
+>>>>>>> develop
     "children":[
       "menu-item#horario"
     ],
@@ -391,12 +406,21 @@
         "orientation":"horizontalAlign"
       }
     }
+<<<<<<< HEAD
   },"menu#club":{
+=======
+  },
+  "menu#club":{
+>>>>>>> develop
     "children":[
       "menu-item#club"
     ],
     "props":{
+<<<<<<< HEAD
     "blockClass":"text10" 
+=======
+    "blockClass":"text11" 
+>>>>>>> develop
     }
   },
   "menu-item#club":{
@@ -419,7 +443,11 @@
       "menu-item#cmr"
     ],
     "props":{
+<<<<<<< HEAD
     "blockClass":"text11" 
+=======
+    "blockClass":"text12" 
+>>>>>>> develop
     }
   },
   "menu-item#cmr":{
@@ -436,13 +464,21 @@
         "orientation":"horizontalAlign"
       }
     }
+<<<<<<< HEAD
   },
   "menu#solicita":{
+=======
+  }, "menu#solicita":{
+>>>>>>> develop
     "children":[
       "menu-item#solicita"
     ],
     "props":{
+<<<<<<< HEAD
     "blockClass":"text12" 
+=======
+    "blockClass":"text13" 
+>>>>>>> develop
     }
   },
   "menu-item#solicita":{
@@ -459,6 +495,7 @@
         "orientation":"horizontalAlign"
       }
     }
+<<<<<<< HEAD
   },
   "menu#falabella":{
     "children":[
@@ -469,6 +506,17 @@
     }
   },
   "menu-item#falabella":{
+=======
+  },"menu#fallabela":{
+    "children":[
+      "menu-item#fallabela"
+    ],
+    "props":{
+    "blockClass":"text14" 
+    }
+  },
+  "menu-item#fallabela":{
+>>>>>>> develop
     "props":{
       "id":"ventastel",
       "orientation":"horizontalAlign",
@@ -482,13 +530,21 @@
         "orientation":"horizontalAlign"
       }
     }
+<<<<<<< HEAD
   },
   "menu#beneficios":{
+=======
+  },"menu#beneficios":{
+>>>>>>> develop
     "children":[
       "menu-item#beneficios"
     ],
     "props":{
+<<<<<<< HEAD
     "blockClass":"text14" 
+=======
+    "blockClass":"text15" 
+>>>>>>> develop
     }
   },
   "menu-item#beneficios":{
@@ -501,11 +557,16 @@
         "href":"#",
         "noFollow":true,
         "tagTitle":"ventastel",
+<<<<<<< HEAD
         "text":"Beneficios",  
+=======
+        "text":"  Beneficios",  
+>>>>>>> develop
         "orientation":"horizontalAlign"
       }
     }
   },
+<<<<<<< HEAD
 
 
 
@@ -517,6 +578,8 @@
 
 
 
+=======
+>>>>>>> develop
 
 
 

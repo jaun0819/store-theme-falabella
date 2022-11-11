@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#seccion-navidadd": {
+        "title": "seccion navidad",
+        "children": [
+            "flex-layout.col#navidadd"
+        ],
+        "props": {
+            "colJustify": "around",
+            "blockClass": "contenedor_navidadd"
+        }
+    },
+    "flex-layout.col#navidadd": {
+        "children": [
+            "image#navidadd"
+        ],
+        "props": {
+            "blockClass": "imagen_navidadd"
+        }
+    },
+    "image#navidadd": {
+        "title": "CELULAR_IMAGE",
+        "props": {
+            "src": "assets/img/navidad_mobile.png",
+            "title": "navidad",
+            "blockClass": "navidadd_image",
+            "link": {
+                "url": "#",
+                "newTap": true
+            }
+        }
+    }
+}
