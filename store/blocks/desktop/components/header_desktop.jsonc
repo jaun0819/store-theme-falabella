@@ -230,7 +230,10 @@
     "children": [
       "flex-layout.row#usuarioo",
       "modal-layout#login"
-    ]
+    ],
+    "props":{
+      "blockClass":"contenedor_login"
+    }
   },
   "flex-layout.row#usuarioo": {
     "children": [
@@ -252,11 +255,11 @@
       "text": "Inicia sesion"
     }
   },
-/*   "modal-layout#login": {
+  "modal-layout#login": {
     "children": [
       "login-content"
     ]
-  }, */
+  },
   
   "modal-trigger#compras": {
     "children": [
@@ -309,7 +312,7 @@
      /*  "login", */
      "modal-trigger#loginnn",
      "modal-trigger#compras",
-     "minicart.v2",
+     "minicart.v2#custom",
      "flex-layout.row#4-desktop"
     
     ],

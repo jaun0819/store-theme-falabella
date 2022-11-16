@@ -13,7 +13,8 @@
   
 border-bottom: 50px; 
 margin-left: -168px;
-transform: translateY(124px);
+transform: translateY(48px);
+
  
 }
 .flexRow--home__section--one{
@@ -30,7 +31,7 @@ transform: translateY(124px);
     
 }
 .flexRow--contenedor_ofertasss{
-    transform: translateY(124px);
+    transform: translateY(62px);
     
 }
 .flexRow--contenedor_ofertassss{
@@ -131,7 +132,7 @@ transform: translateY(124px);
     border-radius: 1.7em;
 }
 .flexRow--home__section--four{
-    transform: translateY(144px);
+  /*   transform: translateY(144px); */
     
 }
 .flexRow--home__section--five{
@@ -156,14 +157,17 @@ transform: translateY(124px);
     }
 } */
 .flexRow--icon-login{
-    transform: translateY(-11px);
-    width: 141px;
+    /* transform: translateY(-11px);*/
+    width: 141px; 
 }
 /* .flexColChild--imagen_perfumes{
     width: 0;
 } */
 .flexRow--row_banner_topp{
     margin-left: 410px;
+}
+.flexRowContent--icon-loginn{
+    flex-direction: row-reverse;
 }
 .flexRowContent--icon-compras{
     transform: translateY(-11px);
@@ -196,7 +200,7 @@ transform: translateY(124px);
     margin-left: 433px;
 }
 .flexRow--content_products{
-    transform: translateY(161px);
+    /* transform: translateY(161px); */
 }
 .flexRow--icon-loginn{
     margin-bottom: 15px;
@@ -205,29 +209,48 @@ transform: translateY(124px);
     transform: translateY(65px);
 }
 .flexRow--contenedor_tecnolo{
-    transform: translateY(141px);
+    transform: translateY(84px);
 }
 .flexRow--contenedor_modaa{
-    transform: translateY(151px);
+    transform: translateY(98px);
 }
 .flexRow--contenedor_calzado{
-    transform: translateY(161px);
+    transform: translateY(110px);
 }
 .flexRow--contenedor_ninos{
-    transform: translateY(169px);
+    transform: translateY(123px);
 }
 .flexRow--contenedor_belleza{
-    transform: translateY(178px);
+    transform: translateY(136px);
 }
 .flexRow--contenedor_decohogar{
-    transform: translateY(184px);
+    transform: translateY(147px);
 }
 .flexRow--contenedor_deportes{
-    transform: translateY(191px);
+    transform: translateY(154px);
 }
 .flexRow--content_productos{
-    transform: translateY(211px);   
+    transform: translateY(103px); 
 }
 .flexRow--home__section--twooo{
-    transform: translateY(198px);
+    transform: translateY(136px);
 }
+.flexRow--home__section--fourr{
+    transform: translateY(78px);
+}
+.flexRowContent--icon-checkk{
+    width: 31px;
+    height: 16px;
+}
+.flexRow--icon-checkk{
+    transform: translateY(34px);
+    margin-left: 13px;
+}
+.flexRow--search_mobilee{
+    background-color: black;
+    transform: translateY(-1px);
+}
+.flexRow--encuentralo{
+    margin-left: 153px;
+}
+ 

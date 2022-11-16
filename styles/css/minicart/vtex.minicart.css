@@ -1,0 +1,26 @@
+.openIconContainer{
+    /* transform: translateY(170px); */
+    /* margin-left: -3px; */
+   
+}
+.openIconContainer:hover{
+    border-bottom: 2px solid greenyellow;
+}
+.minicartWrapperContainer{
+   /*  transform: translateY(-8px); */
+    
+    
+}
+.minicartIconContainer--cart_mobile{
+    /* margin-left: -23px;  */
+}
+.minicartQuantityBadgeDefault{
+    top: 0.3000000000000007rem;
+    right: 0.20000000000000018rem;
+    background-color: rgb(143,202,0);
+    color: #fff;
+    width: 19px;
+    height: 19px;
+    font-size: 13px;
+   /*  color: black; */
+}

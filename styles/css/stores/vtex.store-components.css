@@ -408,3 +408,11 @@
     margin-left: -35px;
       
 }
+.autoCompleteOuterContainer--search_mobilee{
+    margin-left: 244px;
+    width: 303px;
+    transform: translateY(10px);
+}
+.closeIcon--search_mobilee{
+    margin-left: 19px;
+}

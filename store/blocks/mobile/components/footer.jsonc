@@ -1,0 +1,136 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "disclosure-layout-group#footer__menu--group"
+    ],
+    "props":{
+      "blockClass":"footer_mobile"
+    }
+  },
+  "disclosure-layout-group#footer__menu--group":{
+"children":[
+  "disclosure-layout#policies",
+  "disclosure-layout#about-us"/* ,,
+  "disclosure-layout#departments" */
+]
+  },
+
+  "disclosure-layout#policies":{
+    "children":[
+      "disclosure-trigger#polices",
+      "disclosure-content#polices"
+    ]
+  },
+  "disclosure-trigger#polices":{
+    "children":[
+      "rich-text#policies"
+    ]
+  },
+  "rich-text#policies":{
+    "props":{
+      "text":"politicas de la tienda"
+    }
+  },
+  "disclosure-content#polices":{
+    "children":[
+      "menu#policies"
+    ]
+  },
+  "menu#policies":{
+    "children":[
+      "menu-item#terms-and-conds",
+      "menu-item#privacy-policies"
+    ],
+    "props":{
+      "orientation":"vertical"
+    }
+  },
+  "menu-item#terms-and-conds":{
+    "props":{"id":"menu-terms-and-conds",
+    "type":"custom",
+    "itemProps":{
+      "type":"internal",
+      "href":"/",
+      "tagTitle":"terminos y condiciones",
+      "text":"terminos y condiciones"
+    }
+
+  }
+  },
+  "menu-item#privacy-policies":{
+    "props":{"id":"menu-privacy-policies",
+    "type":"custom",
+    "itemProps":{
+      "type":"internal",
+      "href":"/",
+      "tagTitle":"Politicas de privacidad",
+      "text":"Politicas de privacidad"
+    }
+  }
+  },
+
+  "disclosure-layout#about-us":{
+    "children":[
+      "disclosure-trigger#about-us",
+      "disclosure-content#about-us"
+    ]
+  },
+
+
+
+  "disclosure-trigger#about-us":{
+    "children":[
+      "rich-text#about-us"
+    ]
+  },
+  "rich-text#about-us":{
+    "props":{
+      "text":"politicas de la tienda"
+    }
+  },
+  "disclosure-content#about-us":{
+    "children":[
+      "menu#about-us"
+    ]
+  },
+  "menu#about-us":{
+    "children":[
+      "menu-item#about-us",
+      "menu-item#our-shops"
+    ],
+    "props":{
+      "orientation":"vertical"
+    }
+  },
+  "menu-item#about-us":{
+    "props":{"id":"menu-terms-and-conds",
+    "type":"custom",
+    "itemProps":{
+      "type":"internal",
+      "href":"/",
+      "tagTitle":"Acerca de nosotros",
+      "text":"Acerca de nosotros"
+    }
+
+  }
+  },
+  "menu-item#our-shops":{
+    "props":{"id":"menu-privacy-policies",
+    "type":"custom",
+    "itemProps":{
+      "type":"internal",
+      "href":"/",
+      "tagTitle":"Nuestras tientas",
+      "text":"Nuestras tientas"
+    }
+  }
+  }
+
+
+
+
+  
+}

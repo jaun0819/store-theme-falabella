@@ -1,0 +1,10 @@
+.footerLayout--footer_mobile{
+    transform: translateY(108px);
+
+}
+.footerLayout--footer_desktop{
+    transform: translateY(145px);
+}
+.footerLayout--footer_desktop{
+    background-color: rgb(34,34,34);
+}

@@ -1,5 +1,5 @@
   .menuContainerNav{
-    z-index: 2;
+   /*  z-index: 2; */
 }
 .triggerContainer{
     margin-left: -1713px;
@@ -25,5 +25,5 @@
     overflow: visible;
 } 
 .menuContainerNav{
-    z-index: 2;
+   /*  z-index: 2; */
 } 

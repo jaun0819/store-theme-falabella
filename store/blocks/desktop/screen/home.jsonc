@@ -11,7 +11,8 @@
             "slider-layout#home__slider22--children",
             "flex-layout.row#seccion-beneficios",
             "flex-layout.row#global__product--listaa",
-            "flex-layout.row#home__section--four" 
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#home__encuentralo"
             /* ,
             "flex-layout.row#seccion-solox",
             "image#home__descuento", ,

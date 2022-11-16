@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#home__section--fourr":{
+        "children":[
+            "modal-trigger#checkk",
+            "rich-text#home__section--fourr",
+            "rich-text#home__section--fourrr"
+        ],
+        "props":{
+            "blockClass":"home__section--fourr"
+        }
+    },
+    "modal-trigger#checkk":{
+        "children": [
+            "flex-layout.row#checkk"
+          ]
+    },
+   "flex-layout.row#checkk": {
+        "children": [
+          "image#checkk"
+          
+        ],
+        "props": {
+          "blockClass": "icon-checkk"
+        }
+      },
+      "image#checkk": {
+        "props": {
+          "src": "assets/img/check.png",
+          "maxWith": 10,
+          "blockClass":"checkk"
+        }
+      },
+      /* "rich-text#compras": {
+        "props": {
+          "text": "Encuéntralo en Falabella.com",
+          "blockClass":"section__four--title"
+        }
+      } */
+    "rich-text#home__section--fourr":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Encuéntralo en",
+            "blockClass":"section__fourr--title"
+
+        }
+    },
+    "rich-text#home__section--fourrr":{
+      "title":"texto tecnologia",
+      "props":{
+          "text":"Falabella.com",
+          "blockClass":"section__fourrr--title"
+
+      }
+  }
+}
