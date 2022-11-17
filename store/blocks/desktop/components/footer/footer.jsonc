@@ -224,7 +224,10 @@
           "rich-text#texto2__footer--seis",
           "rich-text#texto2__footer--siete",
           "rich-text#texto2__footer--ocho"
-        ]
+        ],
+        "props":{
+          "blockClass":"contenedor_partedefalabella"
+        }
       },
       "rich-text#titulo__footer--two":{
         "props":{
@@ -286,7 +289,10 @@
     "rich-text#texto3__footer--uno",
     "rich-text#texto3__footer--dos",
     "rich-text#texto3__footer--tres"
-  ]
+  ],
+  "props":{
+    "blockClass":"contenedor_unete"
+  }
 },
 "rich-text#titulo__footer--three":{
   "props":{
@@ -320,7 +326,10 @@
     "rich-text#texto4__footer--tres",
     "rich-text#texto4__footer--cuatro",
     "rich-text#texto4__footer--cinco"
-  ]
+  ],
+  "props":{
+    "blockClass":"contenedor_nuestraempresa"
+  }
 },
 "rich-text#titulo__footer--four":{
   "props":{

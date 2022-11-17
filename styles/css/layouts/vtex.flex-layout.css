@@ -253,4 +253,12 @@ transform: translateY(48px);
 .flexRow--encuentralo{
     margin-left: 153px;
 }
- 
+.flexCol--contenedor_teayudamos{
+    margin-left: -227px;
+}
+ .flexCol--contenedor_nuestraempresa{
+    margin-left: 175px;
+ }
+ .flexCol--contenedor_unete{
+    margin-left: 80px;
+ }
