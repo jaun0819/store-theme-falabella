@@ -1,14 +1,4 @@
 {
-  "header-layout.desktop": {
-    "title": "header desktop",
-    "children": [
-      "header-row#header__top",
-      "header-row#header__middle",
-      "header-row#header__down"
-
-    ]
-  },
- 
   "header-row#header__top": {
     "title": "headder top",
     "children": [
@@ -44,7 +34,8 @@
     "props":{
       "id":"ventastel",
       "orientation":"horizontalAlign",
-      "type":"custom",  
+      "type":"custom",
+      "blockClass":"ventatel",  
       "itemProps":{
         "type":"external",
         "href":"#",
@@ -247,7 +238,7 @@
   "image#login": {
     "props": {
       "src": "assets/img/usuario.svg",
-      "maxWith": 30
+      "maxWith": 45
     }
   },
   "rich-text#login": {
@@ -278,7 +269,7 @@
   "image#compras": {
     "props": {
       "src": "assets/img/compras.svg",
-      "maxWith": 60
+      "maxWith": 45
     }
   },
   "rich-text#compras": {
@@ -306,14 +297,16 @@
     "children": [
      /*  "drawer#header__mobile--menu" */
      /* "logo#header__top--logo", */
+     /* ,
+     "header-spacer", */ 
      "flex-layout.row#mega-menu",
-     "header-spacer", 
+     "flex-layout.row#4-desktop",
      "search-bar",
      /*  "login", */
      "modal-trigger#loginnn",
      "modal-trigger#compras",
-     "minicart.v2#custom",
-     "flex-layout.row#4-desktop"
+     "minicart.v2#custom"
+     
     
     ],
     "props": {

@@ -609,3 +609,68 @@ justify-content: center;
 .wrapper--texto5_Nempresa{
     margin-top: -560px;
 }
+.wrapper--texto_sub{
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 20px;
+    letter-spacing: .2px;
+}
+.paragraph--texto_sub{
+    flex-direction: row;
+    align-items: center;
+    flex: 2;
+    padding: 0;
+    color: #888;
+    margin-left: -388px;
+    cursor: pointer;
+}
+.paragraph--texto_sub:hover{
+    color: #ddd;
+}
+.paragraph--texto_derechos{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.paragraph--texto_sa{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.link--texto_sa{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+    pointer-events: none; 
+    text-decoration: none;
+}
+.wrapper--texto_noorton{
+    margin-top: 27px;
+    margin-left: 34px;
+  
+}
+.paragraph--texto_noorton{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}

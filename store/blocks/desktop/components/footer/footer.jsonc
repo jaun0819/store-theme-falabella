@@ -5,7 +5,9 @@
 
      "footer-layout.desktop": { 
     "children": [
-     "flex-layout.row#footer__container"
+     "flex-layout.row#footer__container",
+     "flex-layout.row#footer-desktop",
+     "flex-layout.row#footer2-desktop"
     ],
     "props":{
       "blockClass":"footer_desktop"
@@ -366,61 +368,86 @@
     "text":"CMR Puntos",
     "blockClass":"texto5_Nempresa"
   }
-}
+},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /*  "flex-layout.col#footer__container--col-four":{
-        "children":[
-          "social-networks",
-          "accepted-payment-methods"
-        ]
-      },
-      "accepted-payment-methods":{
-        "props":{
-          "paymentMethods":[
-            "mastercard",
-            "visa",
-            "diners club"
-          ]
-        }
-      },
-      "social-networks":{
-"props":{
-  "socialNetworks":[
-    {
-    "url":"https://www.falabella.com.co/falabella-co",
-    "name":"Facebook"
-  },
-  {
-    "url":"https://www.falabella.com.co/falabella-co",
-    "name":"Twitter"
-  },
-  {
-    "url":"https://www.falabella.com.co/falabella-co",
-    "name":"Instagram"
+"flex-layout.row#footer-desktop": {
+  "children": [
+    "social-networks",
+    "rich-text#text__footer2--sub"
+  ],
+  "props":{
+    "blockClass":"contenedor_footer2"
   }
-  
-]
-}
-      } */
+},
+"social-networks": {
+  "props": {
+    "blockClass":"contenedor_redessociales",
+    "socialNetworks": [
+      { "url": "#", "name": "Facebook" },
+      { "url": "#", "name": "Twitter" },
+      { "url": "#", "name": "Instagram" }
+    ]
   }
+},
+"rich-text#text__footer2--sub":{
+  "props":{
+    "text":"Suscríbete y entérate de nuestras ofertas y productos",
+    "blockClass":"texto_sub"
+  }
+},
+"flex-layout.row#footer2-desktop":{
+  "children":[
+    "flex-layout.col#footer2__container--col-one",
+    "flex-layout.col#norton",
+    "rich-text#norton"
+
+  ],
+  "props":{
+    "blockClass":"contenedor_footer22"
+  }
+},
+"flex-layout.col#footer2__container--col-one":{
+  "children":[
+    "rich-text#titulo__footer2--one",
+    "rich-text#text__footer2--one"
+  ],
+  "props":{
+    "blockClass":"contenedor_footer2_text"
+  }
+},
+"rich-text#titulo__footer2--one":{
+  "props":{ 
+    "text":"© TODOS LOS DERECHOS RESERVADOS",
+    "blockClass":"texto_derechos"
+  }
+},
+"rich-text#text__footer2--one":{
+  "props":{ 
+    "text":"Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co",
+    "blockClass":"texto_sa"
+  }
+},
+
+"flex-layout.col#norton":{
+  "children":[
+    "image#norton"   
+   ],
+   "props":{
+       "blockClass":"icon-norton"
+   }
+},
+"image#norton":{
+  "title":"CELULAR_IMAGE",
+  "props":{
+    "src": "assets/img/norton.svg",
+    "blockClass":"contenedor_noorton"
+  }
+
+},
+"rich-text#norton": {
+  "props": {
+    "text": "COMPRA 100% SEGURA",
+    "blockClass":"texto_noorton"
+  }
+} 
+}

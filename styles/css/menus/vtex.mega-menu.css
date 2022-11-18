@@ -2,8 +2,8 @@
    /*  z-index: 2; */
 }
 .triggerContainer{
-    margin-left: -1713px;
-    transform: translateY(-8px);
+   /*  margin-left: -1713px;
+    transform: translateY(-8px); */
 }
 .styledLinkContent:hover{
     color: rgb(164,212,30);
@@ -16,12 +16,12 @@
     color: #6E7578;
 }
 .menuContainerNav{
-    transform: translateY(27px);
-    height: 571px;
+  /*   transform: translateY(27px); */
+    /* height: 571px; */
     /* margin-left: 83px; */
 }
 .menuContainer{
-    height: 571px;
+    /* height: 571px; */
     overflow: visible;
 } 
 .menuContainerNav{

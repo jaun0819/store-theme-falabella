@@ -8,3 +8,9 @@
 .footerLayout--footer_desktop{
     background-color: rgb(34,34,34);
 }
+.socialNetworksContainer--contenedor_redessociales{
+    display: flex;  
+    margin-top: 18px;
+    margin-left: -7.25rem;
+    margin-right: -0.25rem;
+}
