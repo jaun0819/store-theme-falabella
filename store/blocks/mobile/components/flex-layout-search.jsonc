@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#seccion-search": {
+        "title": "search mobile",
+        "children": [
+            "search-bar#mobilee"
+        ],
+        "props":{
+          "blockClass":"search_mobilee"
+        }
+
+      },
+      "search-bar#mobilee":{
+        "props":{
+            "width":100,
+            "placeholder":"¿Qué buscas?",
+          "blockClass":"search_mobilee"
+        }
+      }
+}

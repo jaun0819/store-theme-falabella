@@ -160,6 +160,7 @@
   
 }
 .searchBarContainer{
+<<<<<<< HEAD:styles/css/vtex.store-components.css
 <<<<<<< HEAD
     transform: translateY(24px);
     margin-right: 262px;
@@ -167,6 +168,10 @@
     transform: translateY(-21px);
     margin-right: 486px;
 >>>>>>> develop
+=======
+    /* transform: translateY(-21px); */
+    margin-right: 479px;
+>>>>>>> develop:styles/css/stores/vtex.store-components.css
     
 }
         .logoLink--logo_fala{
@@ -410,6 +415,18 @@
 .logoLink--logo_falabella{
     width: 200px;
    
-    margin-left: -35px;
+    
       
+}
+.autoCompleteOuterContainer--search_mobilee{
+    /* margin-left: 244px; */
+    width: 303px;
+     
+}
+.imageElement--contenedor_noorton{
+    width: 100px;
+}
+.searchBarInnerContainer--search_mobilee{
+    margin-left: 238px;
+    margin-bottom: 16px;
 }

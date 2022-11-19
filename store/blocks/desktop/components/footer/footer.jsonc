@@ -1,0 +1,453 @@
+{
+    "footer": {
+      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+
+     "footer-layout.desktop": { 
+    "children": [
+     "flex-layout.row#footer__container",
+     "flex-layout.row#footer-desktop",
+     "flex-layout.row#footer2-desktop"
+    ],
+    "props":{
+      "blockClass":"footer_desktop"
+    }
+  },
+  "flex-layout.row#footer__container":{
+    "children":[
+      "flex-layout.col#footer__container--col-one",
+      "flex-layout.col#footer__container--col-two",
+      "flex-layout.col#footer__container--col-three",
+      "flex-layout.col#footer__container--col-four"
+      /* "flex-layout.col#footer__container--col-four" */
+    ]
+  },
+  "flex-layout.col#footer__container--col-one":{
+    "children":[
+      "rich-text#titulo__footer--one",
+      "rich-text#text__footer--one",
+      "rich-text#text__footer--two",
+      "rich-text#text__footer--three",
+      "rich-text#text__footer--four",
+      "rich-text#text__footer--five",
+      "rich-text#text__footer--six",
+      "rich-text#text__footer--seven", 
+      "flex-layout.col#industria",
+      "rich-text#text__footer--ocho",
+      "rich-text#text__footer--nueve",
+      "rich-text#text__footer--diez",
+      "rich-text#text__footer--once",
+      "rich-text#text__footer--doce",
+      "rich-text#text__footer--trece"
+    ],
+    "props":{
+      "blockClass":"contenedor_teayudamos"
+    }
+  },
+  "rich-text#titulo__footer--one":{
+"props":{
+  "text":"Te ayudamos",
+  "blockClass":"titulo_teayudamos"
+}
+  },
+  "rich-text#text__footer--one":{
+    "props":{
+      "text":"Mi cuenta",
+      "blockClass":"texto1_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },
+
+  "rich-text#text__footer--two":{
+    "props":{
+      "text":"Seguimiento de mi Orden",
+      "blockClass":"texto2_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },"rich-text#text__footer--three":{
+    "props":{
+      "text":"Nuestras Tiendas",
+      "blockClass":"texto3_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },
+  "rich-text#text__footer--four":{
+    "props":{
+      "text":"Medios de Pago",
+      "blockClass":"texto4_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },
+  "rich-text#text__footer--five":{
+    "props":{
+      "text":"Métodos de Entrega",
+      "blockClass":"texto5_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },
+  "rich-text#text__footer--six":{
+    "props":{
+      "text":"Términos y condiciones",
+      "blockClass":"texto6_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },"rich-text#text__footer--seven":{
+    "props":{
+      "text":"Política de tratamiento de datos",
+      "blockClass":"texto7_teayudamos",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+    }
+  },
+  "flex-layout.col#industria":{
+    "children":[
+     "image#industria"   
+    ],
+    "props":{
+        "blockClass":"imagen_industria"
+    }
+},
+"image#industria"  :{
+  "title":"INDUSTRIA_IMAGE",
+  "props":{
+      "src":"assets/img/industria.png",
+      "title":"industria",
+      "maxWidth":2000,
+      "blockClass":"industria_image",
+      "link":{
+          "url":"#",
+          "newTap":true
+      }
+  }
+
+},
+"rich-text#text__footer--ocho":{
+  "props":{
+    "text":"Derecho de retracto",
+    "blockClass":"texto8_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+"rich-text#text__footer--nueve":{
+  "props":{
+    "text":"Comunicaciones Falabella",
+    "blockClass":"texto9_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+"rich-text#text__footer--diez":{
+  "props":{
+    "text":"Cambios y devoluciones",
+    "blockClass":"texto10_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+"rich-text#text__footer--once":{
+  "props":{
+    "text":"Reversión del pago",
+    "blockClass":"texto11_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+"rich-text#text__footer--doce":{
+  "props":{
+    "text":"¿Cómo redimir tu GiftCard?",
+    "blockClass":"texto12_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+"rich-text#text__footer--trece":{
+  "props":{
+    "text":"Factura Electrónica",
+    "blockClass":"texto13_teayudamos",
+    "link":{
+        "url":"#",
+        "newTap":true
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "flex-layout.col#footer__container--col-two":{
+        "children":[
+          "rich-text#titulo__footer--two",
+          "rich-text#texto2__footer--uno",
+          "rich-text#texto2__footer--dos",
+          "rich-text#texto2__footer--tres",
+          "rich-text#texto2__footer--cuatro",
+          "rich-text#texto2__footer--cinco",
+          "rich-text#texto2__footer--seis",
+          "rich-text#texto2__footer--siete",
+          "rich-text#texto2__footer--ocho"
+        ],
+        "props":{
+          "blockClass":"contenedor_partedefalabella"
+        }
+      },
+      "rich-text#titulo__footer--two":{
+        "props":{
+          "text":"Sé parte de Falabella.com",
+          "blockClass":"titulo_teayudamos"
+        }
+      },
+
+      "rich-text#texto2__footer--uno":{
+          "props":{
+            "text":"Nuestra empresa",
+            "blockClass":"texto1_pfalabella"
+          }
+      },
+      "rich-text#texto2__footer--dos":{
+        "props":{
+          "text":"Proveedores",
+          "blockClass":"texto2_pfalabella"
+        }
+    },
+    "rich-text#texto2__footer--tres":{
+      "props":{
+        "text":"Venta empresa",
+        "blockClass":"texto3_pfalabella"
+      }
+  },"rich-text#texto2__footer--cuatro":{
+    "props":{
+      "text":"Inversionistas",
+      "blockClass":"texto4_pfalabella"
+    }
+},
+"rich-text#texto2__footer--cinco":{
+  "props":{
+    "text":"Red verde",
+    "blockClass":"texto5_pfalabella"
+  }
+},
+"rich-text#texto2__footer--seis":{
+  "props":{
+    "text":"Canal de integridad",
+    "blockClass":"texto6_pfalabella"
+  }
+},
+"rich-text#texto2__footer--siete":{
+  "props":{
+    "text":"Somos Falabella",
+    "blockClass":"texto7_pfalabella"
+  }
+},
+"rich-text#texto2__footer--ocho":{
+  "props":{
+    "text":"Trabaja con Nosotros",
+    "blockClass":"texto8_pfalabella"
+  }
+},
+"flex-layout.col#footer__container--col-three":{
+  "children":[
+    "rich-text#titulo__footer--three", 
+    "rich-text#texto3__footer--uno",
+    "rich-text#texto3__footer--dos",
+    "rich-text#texto3__footer--tres"
+  ],
+  "props":{
+    "blockClass":"contenedor_unete"
+  }
+},
+"rich-text#titulo__footer--three":{
+  "props":{
+    "text":"Únete a nuestros programas",
+    "blockClass":"titulo_teayudamos"
+  }
+},
+"rich-text#texto3__footer--uno":{
+  "props":{
+    "text":"Club Deco",
+    "blockClass":"texto1_unete"
+  }
+},
+"rich-text#texto3__footer--dos":{
+  "props":{
+    "text":"Club Novios",
+    "blockClass":"texto2_unete"
+  }
+},
+"rich-text#texto3__footer--tres":{
+  "props":{
+    "text":"Club Bebés",
+    "blockClass":"texto3_unete"
+  }
+},
+"flex-layout.col#footer__container--col-four":{
+  "children":[
+    "rich-text#titulo__footer--four",
+    "rich-text#texto4__footer--uno",
+    "rich-text#texto4__footer--dos",
+    "rich-text#texto4__footer--tres",
+    "rich-text#texto4__footer--cuatro",
+    "rich-text#texto4__footer--cinco"
+  ],
+  "props":{
+    "blockClass":"contenedor_nuestraempresa"
+  }
+},
+"rich-text#titulo__footer--four":{
+  "props":{
+    "text":"Nuestras empresas",
+    "blockClass":"titulo_teayudamos"
+  }
+},
+"rich-text#texto4__footer--uno":{
+  "props":{
+    "text":"Banco Falabella",
+    "blockClass":"texto1_Nempresa"
+  }
+},
+"rich-text#texto4__footer--dos":{
+  "props":{
+    "text":"Seguros Falabella",
+    "blockClass":"texto2_Nempresa"
+  }
+},
+"rich-text#texto4__footer--tres":{
+  "props":{
+    "text":"Sodimac",
+    "blockClass":"texto3_Nempresa"
+  }
+},
+"rich-text#texto4__footer--cuatro":{
+  "props":{
+    "text":"Linio",
+    "blockClass":"texto4_Nempresa"
+  }
+},
+"rich-text#texto4__footer--cinco":{
+  "props":{
+    "text":"CMR Puntos",
+    "blockClass":"texto5_Nempresa"
+  }
+},
+
+"flex-layout.row#footer-desktop": {
+  "children": [
+    "social-networks",
+    "rich-text#text__footer2--sub"
+  ],
+  "props":{
+    "blockClass":"contenedor_footer2"
+  }
+},
+"social-networks": {
+  "props": {
+    "blockClass":"contenedor_redessociales",
+    "socialNetworks": [
+      { "url": "#", "name": "Facebook" },
+      { "url": "#", "name": "Twitter" },
+      { "url": "#", "name": "Instagram" }
+    ]
+  }
+},
+"rich-text#text__footer2--sub":{
+  "props":{
+    "text":"Suscríbete y entérate de nuestras ofertas y productos",
+    "blockClass":"texto_sub"
+  }
+},
+"flex-layout.row#footer2-desktop":{
+  "children":[
+    "flex-layout.col#footer2__container--col-one",
+    "flex-layout.col#norton",
+    "rich-text#norton"
+
+  ],
+  "props":{
+    "blockClass":"contenedor_footer22"
+  }
+},
+"flex-layout.col#footer2__container--col-one":{
+  "children":[
+    "rich-text#titulo__footer2--one",
+    "rich-text#text__footer2--one"
+  ],
+  "props":{
+    "blockClass":"contenedor_footer2_text"
+  }
+},
+"rich-text#titulo__footer2--one":{
+  "props":{ 
+    "text":"© TODOS LOS DERECHOS RESERVADOS",
+    "blockClass":"texto_derechos"
+  }
+},
+"rich-text#text__footer2--one":{
+  "props":{ 
+    "text":"Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co",
+    "blockClass":"texto_sa"
+  }
+},
+
+"flex-layout.col#norton":{
+  "children":[
+    "image#norton"   
+   ],
+   "props":{
+       "blockClass":"icon-norton"
+   }
+},
+"image#norton":{
+  "title":"CELULAR_IMAGE",
+  "props":{
+    "src": "assets/img/norton.svg",
+    "blockClass":"contenedor_noorton"
+  }
+
+},
+"rich-text#norton": {
+  "props": {
+    "text": "COMPRA 100% SEGURA",
+    "blockClass":"texto_noorton"
+  }
+} 
+}

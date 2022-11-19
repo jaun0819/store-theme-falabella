@@ -1,0 +1,824 @@
+.paragraph--section__one--title{
+    background-color: black; 
+    
+    color: white;
+   
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 2rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.container--section__one--title{
+    justify-content: center;
+    transform: translateY(-26px);
+
+}
+.paragraph--section__two--title{
+    position: relative;
+    color: #323c47;
+    font-size: 2.25rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-bottom: 1.1875rem;
+}
+.paragraph--section__three--title{
+    background-color: black;
+border-radius: 10px;
+width: 227px;
+ 
+margin-left: -87px;
+height: 41px;
+
+color: #bbe400;
+font-size: .875rem;
+font-weight: 900;
+letter-spacing: .094rem;
+font-family: Lato,sans-serif;
+}
+.paragraph--section__four--title{
+    color: #4a4a4a;
+    font-size: 2.05rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.paragraph--section__five--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__six--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__seven--title{
+    background-color: black;
+    border-radius: 10px;
+    width: 227px;
+     
+    margin-left: -87px;
+    height: 41px;
+    
+    color: #bbe400;
+    font-size: .875rem;
+    font-weight: 900;
+    letter-spacing: .094rem;
+    font-family: Lato,sans-serif;
+}
+.paragraph--section__two--title{
+    margin-left: -183px;
+}
+.wrapper--section__four--title{
+    margin-left: -265px;
+}
+.paragraph--section__two-mobile{
+    font-size: 1.5625rem;
+    position: relative;
+    color: #323c47;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-bottom: 1.1875rem;
+}
+.wrapper--section__fourr--title{
+    margin-left: -55px;
+    transform: translateY(13px);
+}
+.wrapper--section__fourrr--title{
+    transform: translateY(35px);
+    margin-left: -155px;
+}
+.paragraph--section__fourr--title{
+    color: #4a4a4a;
+font-size: 1.09rem;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+.paragraph--section__fourrr--title{
+    color: #4a4a4a;
+    font-size: 1.09rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wrapper--encuentralo_uno{
+    transform: translateY(51px);
+    margin-left: -317px;
+}
+.wrapper--titulo_uno{
+    margin-left: -135px;
+}
+.wrapper--encuentralo_dos{
+    transform: translateY(47px);
+    margin-left: -176px;
+}
+.wrapper--titulo_dos{
+    margin-left: 7px;
+}
+.wrapper--titulo_tres{
+    margin-left: 35px;
+}
+.wrapper--encuentralo_tres{
+    transform: translateY(50px);
+    margin-left: -146px;
+}
+.wrapper--encuentralo_cuatro{
+    transform: translateY(43px);
+    margin-left: -131px;
+}
+.wrapper--titulo_cuatro{
+    
+    margin-left: 50px;
+}
+.paragraph--titulo_uno{
+    color: #4a4a4a;
+    font-weight: 400; 
+    font-size: 1.5rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--titulo_dos{
+    color: #4a4a4a;
+    font-weight: 400; 
+    font-size: 1.5rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--titulo_tres{
+    color: #4a4a4a;
+    font-weight: 400; 
+    font-size: 1.5rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--titulo_cuatro{
+    color: #4a4a4a;
+    font-weight: 400; 
+    font-size: 1.5rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper--titulo_teayudamos{
+    margin-top: 67px;
+    margin-bottom: 33px;
+}
+.paragraph--encuentralo_uno{
+    color: #888;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.paragraph--encuentralo_dos{
+    color: #888;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.paragraph--encuentralo_tres{
+    color: #888;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.paragraph--encuentralo_cuatro{
+    color: #888;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.paragraph--titulo_teayudamos{
+    font-size: 24px;
+    font-weight: 800;
+    color: #bbb;
+    letter-spacing: .2px;
+    line-height: 20px;
+    margin: 0;
+    font-family: Lato,sans-serif;
+}
+.paragraph--texto1_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto2_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto3_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto4_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto5_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto6_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto7_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto8_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto9_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto10_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto11_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto12_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto13_teayudamos{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto1_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto2_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto3_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto4_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto5_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto6_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto7_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto8_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto9_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto10_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto11_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto12_teayudamos:hover{
+    color: #ddd;
+}.paragraph--texto13_teayudamos:hover{
+    color: #ddd;
+}
+.paragraph--texto1_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto2_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto3_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto4_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto5_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto6_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto7_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto8_pfalabella{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto1_pfalabella:hover{
+    color: #ddd;
+}
+.paragraph--texto2_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto3_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto4_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto5_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto6_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto7_pfalabella:hover{
+    color: #ddd;
+}.paragraph--texto8_pfalabella:hover{
+    color: #ddd;
+}
+.paragraph--texto1_unete{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto2_unete{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto3_unete{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto1_unete:hover{
+    color: #ddd;
+}
+.paragraph--texto2_unete:hover{
+    color: #ddd;
+}
+.paragraph--texto3_unete:hover{
+    color: #ddd;
+}
+.paragraph--texto1_Nempresa{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto2_Nempresa{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto3_Nempresa{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto4_Nempresa{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}.paragraph--texto5_Nempresa{
+    padding-left: 0;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.paragraph--texto1_Nempresa:hover{
+    color: #ddd;
+}
+.paragraph--texto2_Nempresa:hover{
+    color: #ddd;
+}
+.paragraph--texto3_Nempresa:hover{
+    color: #ddd;
+}.paragraph--texto4_Nempresa:hover{
+    color: #ddd;
+}.paragraph--texto5_Nempresa:hover{
+    color: #ddd;
+}
+.wrapper--texto2_pfalabella{
+    margin-top: -64px;
+}
+.wrapper--texto3_pfalabella{
+    margin-top: -132px;
+}
+.wrapper--texto4_pfalabella{
+    margin-top: -197px;
+}
+.wrapper--texto5_pfalabella{
+    margin-top: -263px;
+}
+.wrapper--texto6_pfalabella{
+    margin-top: -329px;
+}
+.wrapper--texto7_pfalabella{
+    margin-top: -392px;
+}
+.wrapper--texto8_pfalabella{
+    margin-top: -457px;
+}
+.wrapper--texto1_unete{
+    margin-top: -139px;
+}
+.wrapper--texto2_unete{
+    margin-top: -352px;
+}
+.wrapper--texto3_unete{
+    margin-top: -565px;
+}
+.wrapper--texto1_Nempresa{
+    margin-top: -55px;
+}
+.wrapper--texto2_Nempresa{
+    margin-top: -186px;
+}
+.wrapper--texto3_Nempresa{
+    margin-top: -309px;
+}
+.wrapper--texto4_Nempresa{
+    margin-top: -434px;
+}
+.wrapper--texto5_Nempresa{
+    margin-top: -560px;
+}
+.wrapper--texto_sub{
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 20px;
+    letter-spacing: .2px;
+}
+.paragraph--texto_sub{
+    flex-direction: row;
+    align-items: center;
+    flex: 2;
+    padding: 0;
+    color: #888;
+    margin-left: -388px;
+    cursor: pointer;
+}
+.paragraph--texto_sub:hover{
+    color: #ddd;
+}
+.paragraph--texto_derechos{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.paragraph--texto_sa{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.link--texto_sa{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+    pointer-events: none; 
+    text-decoration: none;
+}
+.wrapper--texto_noorton{
+    margin-top: 27px;
+    margin-left: 34px;
+  
+}
+.paragraph--texto_noorton{
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.paragraph--titulo_unomob{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper--titulo_unomob{
+    margin-left: 21px;
+}
+.wrapper--encuentralo_unomob{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.paragraph--encuentralo_unomob{
+    color: #4a4a4a;
+}
+.paragraph--titulo_dosmob{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--encuentralo_dosmob{
+    color: #4a4a4a;
+}
+.paragraph--titulo_tresmob{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--encuentralo_tresmob{
+    color: #4a4a4a;
+}
+.paragraph--titulo_cuatromob{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto 0.625rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paragraph--encuentralo_cuatromob{
+    color: #4a4a4a;
+}
+.paragraph--text_footermob{
+    color: white;
+}
+.wrapper--text_footermob{
+    border-top: 1px solid #4a4a4a;
+}
+.paragraph--text_footermob1{
+    color: white;
+}
+.paragraph--textomobb_teayudamos{
+    color: #bbb;
+}
+.paragraph--textomobb_unete {
+    color: #bbb;
+}
+.paragraph--textomobb_pfalabella {
+    color: #bbb;
+}
+.paragraph--textoob_Nempresa {
+    color: #bbb;
+}
+.wrapper--texto_submob{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 24px;
+}
+.paragraph--texto_submob{
+    color: #bbb;
+}
+.paragraph--texto_derechosmob{
+    font-weight: 700;
+    font-size: 0.7em;
+    color: #888;
+}
+.paragraph--texto_saa{
+    font-weight: 700;
+    font-size: 0.7em;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+}
+.link--texto_saa{
+    font-weight: 700;
+    font-size: 1.02em;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+    pointer-events: none;
+    text-decoration: none;
+}
+.wrapper--texto_saa{
+    margin-top: -12px;
+}
+.paragraph--question_mas{
+    color: white;
+}
+.paragraph--texto_noortonmob{
+    font-weight: 700;
+    font-size: 0.7em;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #888;
+    pointer-events: none;
+    text-decoration: none;
+}
+ .container--texto_noortonmob{
+    margin-top: -71px;
+    margin-left: 129px;
+ }

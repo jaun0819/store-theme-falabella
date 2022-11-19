@@ -1,5 +1,5 @@
 {
-    "header-row#header__middle--mobile": {
+    /* "header-row#header__middle--mobile": {
         "title": "header top mobile",
         "children": [
             "search-bar#mobile"
@@ -15,5 +15,5 @@
             "placeholder":"¿Qué buscas?",
           "blockClass":"search_mobile"
         }
-      }
+      } */
 }

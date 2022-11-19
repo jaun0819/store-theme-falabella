@@ -1,0 +1,6 @@
+.container{
+    transform: translateY(20px);
+}
+.contentAlwaysWithOptions{
+    max-width: 53rem;
+}

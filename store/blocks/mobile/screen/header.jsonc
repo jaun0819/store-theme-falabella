@@ -3,6 +3,7 @@
         "title":"header mobile",
         "children":[
             "header-row#header__top--mobile",
+            "flex-layout.row#seccion-search",
             "image#home__enviosmobile",
             "slider-layout#home__slidermobile--children",
             "flex-layout.row#seccion-navidadd",
@@ -18,7 +19,9 @@
             "flex-layout.row#home__section--twooo",
             "slider-layout#home__slidermobile2--children",
             "slider-layout#home__sliderbeneficios--children",
-            "flex-layout.row#global__productmobile--listaa"/* ,
+            "flex-layout.row#global__productmobile--listaa",
+            "flex-layout.row#home__section--fourr",
+            "flex-layout.row#home__encuentralomob"/* ,
             "header-row#header__middle--mobile" */
         ] 
         }

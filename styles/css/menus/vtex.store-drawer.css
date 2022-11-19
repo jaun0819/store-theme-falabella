@@ -11,7 +11,7 @@
 .openIconContainer{
    /*  transform: translateY(-90px); */
  /*   transform: translateY(5px); */
- margin-left: -119px;
+  
    
    
     
@@ -22,7 +22,7 @@
    max-width: 450px;
    min-width: 100px;
    pointer-events: auto;
-   transform: translate3d(0%, 154px, 0px)!important;
+   /* transform: translate3d(0%, 154px, 0px)!important; */
 
 }
 .closeIconContainer--drawer_menu{
