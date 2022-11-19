@@ -287,3 +287,32 @@ transform: translateY(48px);
     height: 100%;
     margin-left: 305px;
  }
+ .flexCol--contenedor_footer2_text{
+    /* margin-top: 112px; */
+ }
+ .flexRow--encuentralo_mob{
+    margin-top: 7.25rem;
+ }
+ .flexCol--footerrr_mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 24px;
+ }
+ .flexRowContent--contenedor_footermob{
+    border-top: 1px solid rgb(74, 74, 74);
+ }
+ .flexRowContent--contenedor_derechosmob{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 24px;
+ }
+ .flexColChild--icon-nortonmob{
+    width: 100px;
+ }
+ .flexRow--contenedor_nortonmobb{
+    margin-left: 25px;
+ }

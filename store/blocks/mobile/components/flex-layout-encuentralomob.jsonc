@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#home__encuentralomob":{
+        "children":[
+            "flex-layout.col#encuentralomob__container--col-one"
+        ],
+        "props":{
+            "blockClass":"encuentralo_mob"
+        }
+    },
+    "flex-layout.col#encuentralomob__container--col-one":{
+        "children":[
+            "rich-text#titulo__section--onemob",
+            "rich-text#encuentralo__section--onemob",
+            "rich-text#titulo__section--twomob",
+            "rich-text#encuentralo__section--twomob",
+            "rich-text#titulo__section--threemob",
+            "rich-text#encuentralo__section--threemob",
+            "rich-text#titulo__section--fourmob",
+            "rich-text#encuentralo__section--fourmob"
+        ]
+    },
+    "rich-text#titulo__section--onemob":{
+        "title":"Black Friday 2022 se vive en Falabella",
+        "props":{
+            "text":"Black Friday 2022 se vive en Falabella",
+            "blockClass":"titulo_unomob"
+
+        }
+    },
+    "rich-text#encuentralo__section--onemob":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Ya viene Black Friday; el evento de descuentos y ofertas más esperado del año a nivel mundial,sabemos cuánta expectativa genera este evento y por eso en Falabella queremos sorprenderte con promociones imperdibles para que puedas adelantar tus compras de navidad y puedas estrenar todo eso que tanto te gusta en tus categorías y marcas favoritas como celulares, televisores, computadores, tenis para mujer y hombre, ropa para mujer y hombre y muchas otras más. Prepárate para disfrutar del mejor Black Friday en Falabella, desde este 25 hasta el 27 de noviembre de 2022.",
+            "blockClass":"encuentralo_unomob"
+
+        }
+    },
+    "rich-text#titulo__section--twomob":{
+        "title":"Unas vacaciones muy esperadas",
+        "props":{
+            "text":"Unas vacaciones muy esperadas",
+            "blockClass":"titulo_dosmob"
+
+        }
+    },
+    "rich-text#encuentralo__section--twomob":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Prepárate para disfrutar de unas merecidas vacaciones en este final de año, en Falabella tenemos todo preparado para que no se te escape nada de lo que necesitas para disfrutar de un descanso tan esperado, podrás encontrar desde lo más básico para disfrutar del sol y la playa como lo son vestidos de baño, pantalonetas de baño, protectores solares, sandalias, gafas de sol, sombreros y mucho más.  No importa que tantos días decidas tomarte para descansar lo que necesitarás para cualquier viaje que decidas hacer es una maleta de viaje que se adapte a tus planes, en Falabella podrás encontrar una amplia variedad de opciones de las mejores marcas como American Tourister, Benetton, Victorinox, Explora y muchas otras más; incluso podrás encontrar accesorios para organizar tu maleta de una manera impecable.",
+            "blockClass":"encuentralo_dosmob"
+
+        }
+    },
+    "rich-text#titulo__section--threemob":{
+        "title":"Hinchas del Fútbol",
+        "props":{
+            "text":"Hinchas del Fútbol",
+            "blockClass":"titulo_tresmob"
+
+        }
+    },
+    "rich-text#encuentralo__section--threemob":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Hinchas del Fútbol Llega la fiesta deportiva más importante y sabemos que eres un fánatico de ver los goles y jugadas más increíbles en el evento que reúne a las mejores selecciones de fútbol del mundo, por eso en Falabella podrás encontrar todo lo que necesitas para hacer de tu hogar el mejor estadio para disfrutar del torneo de fútbol más importante, desde televisores de las mejores marcas como Samsung, LG, Hisense, TCL y del tamaño que prefieras Smart TV de 65 pulgadas, 55 pulgadas, 43 pulgadas; una gran pantalla demanda un excelente sonido por eso también te ofrecemos las mejores opciones en teatros en casa, parlantes bluetooth, barras de sonido y mucho más.",
+            "blockClass":"encuentralo_tresmob"
+
+        }
+    },
+    
+    "rich-text#titulo__section--fourmob":{
+        "title":"Comuna 13 x Falabella",
+        "props":{
+            "text":"Comuna 13 x Falabella",
+            "blockClass":"titulo_cuatromob"
+
+        }
+    },
+    "rich-text#encuentralo__section--fourmob":{
+        "title":"texto tecnologia",
+        "props":{
+            "text":"Descubre una nueva colaboración de moda inspirada en el streetwear, el arte urbano, los colores y la alegría que caracteriza a La Comuna 13 de Medellín, podrás encontrar ropa para mujer, hombre y niños con diseños que destacan la creatividad, la pasión y la alegría que caracteriza a todos los habitantes de uno de los tantos bellos lugares de nuestro país. Si amas el streetwear acá encontrarás hoodies, camisetas, joggers y muchas prendas más que te inspirarán a encontrar un nuevo e increíble look.",
+            "blockClass":"encuentralo_cuatromob"
+      }
+  }
+}

@@ -4,6 +4,7 @@
 }
 .headerRowBackground--header_top{
     background-color: rgb(51,51,51);
+    border-top: 5px solid rgb(170,213,0);
     
 }
 .headerRowBackground--header_down{

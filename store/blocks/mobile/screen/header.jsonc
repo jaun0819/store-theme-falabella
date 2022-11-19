@@ -20,7 +20,8 @@
             "slider-layout#home__slidermobile2--children",
             "slider-layout#home__sliderbeneficios--children",
             "flex-layout.row#global__productmobile--listaa",
-            "flex-layout.row#home__section--fourr"/* ,
+            "flex-layout.row#home__section--fourr",
+            "flex-layout.row#home__encuentralomob"/* ,
             "header-row#header__middle--mobile" */
         ] 
         }
