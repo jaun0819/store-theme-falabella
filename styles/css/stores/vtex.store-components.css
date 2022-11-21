@@ -5,7 +5,7 @@
     width: 8000px;
 }
 .imageElement--descuento--tittle{
-    /* transform: translateY(300px); */
+ 
     margin-left: 19px;
 }
 .imageElement--cmr_image{
@@ -142,9 +142,7 @@
     left: 90%;
     height: 100%;
 }
-/* .logoImage{
-    margin-right: 100%;
-} */
+ 
 .searchIcon{
     color: white;
     left: 300px;
@@ -160,23 +158,21 @@
   
 }
 .searchBarContainer{
-<<<<<<< HEAD:styles/css/vtex.store-components.css
-<<<<<<< HEAD
-    transform: translateY(24px);
+ 
+    transform: translateY(-6px);
     margin-right: 262px;
-=======
-    transform: translateY(-21px);
+ 
+     
     margin-right: 486px;
->>>>>>> develop
-=======
-    /* transform: translateY(-21px); */
+ 
+   
     margin-right: 479px;
->>>>>>> develop:styles/css/stores/vtex.store-components.css
+ 
     
 }
         .logoLink--logo_fala{
             transform: inherit;
-           /*  margin-left: -388px; */
+           
             z-index: 2;
             margin-left: -183px;
         }
@@ -427,6 +423,7 @@
     width: 100px;
 }
 .searchBarInnerContainer--search_mobilee{
-    margin-left: 238px;
-    margin-bottom: 16px;
+     
+    margin-left: 270px;
+    margin-top: 24px;
 }

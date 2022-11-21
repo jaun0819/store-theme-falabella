@@ -34,7 +34,7 @@
       "disclosure-layout#simple4"
     ],
     "props":{
-      "blockClass":"footerrr_mobile"
+      "blockClass":"footer_mobile_disclosure"
     }
     
   },
