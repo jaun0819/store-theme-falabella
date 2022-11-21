@@ -1,26 +1,26 @@
 .openIconContainer{
-    /* transform: translateY(170px); */
-    /* margin-left: -3px; */
+    transform: translateY(215px);
+    margin-left: 30px;
    
 }
 .openIconContainer:hover{
     border-bottom: 2px solid greenyellow;
 }
-.minicartWrapperContainer{
-   /*  transform: translateY(-8px); */
-    
-    
-}
+ .minicartContainer--cart_mobile{
+    margin-top: -431px;
+ }
 .minicartIconContainer--cart_mobile{
-    /* margin-left: -23px;  */
+    margin-left: -23px; 
 }
 .minicartQuantityBadgeDefault{
     top: 0.3000000000000007rem;
-    right: 0.20000000000000018rem;
+    right: 0.2rem;
     background-color: rgb(143,202,0);
+     
     color: #fff;
     width: 19px;
     height: 19px;
-    font-size: 13px;
-   /*  color: black; */
+    top: 5px;
+    right: 0;
+    font-size: 9px;
 }

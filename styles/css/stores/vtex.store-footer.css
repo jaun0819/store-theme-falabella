@@ -11,7 +11,7 @@
 .socialNetworksContainer--contenedor_redessociales{
     display: flex;  
     margin-top: 18px;
-    margin-left: -7.25rem;
+    
     margin-right: -0.25rem;
 }
 .footerLayout--footer_mobile{
@@ -20,7 +20,7 @@
 .socialNetworksContainer--contenedor_redessocialesmob{
     margin-top: 21px;
     display: flex;
-    /* flex-direction: column; */
+   
      
     width: 100%;
     padding: 0 24px;

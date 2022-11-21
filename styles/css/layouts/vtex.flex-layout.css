@@ -5,10 +5,7 @@
 :global(.vtex-store-link-0-x-buttonlink){
     background: red;
 }
-/* .imageElement--descuento--tittle{
-    width: 3000;
-    
-} */
+ 
 .flexRow--contenedor_beneficios{
   
 border-bottom: 50px; 
@@ -131,10 +128,7 @@ transform: translateY(48px);
     background-color: rgb(164,212,30);
     border-radius: 1.7em;
 }
-.flexRow--home__section--four{
-  /*   transform: translateY(144px); */
-    
-}
+ 
 .flexRow--home__section--five{
     transform: translateY(144px);
     background-color: rgb(164,212,30);
@@ -150,24 +144,12 @@ transform: translateY(48px);
     background-color: rgb(164,212,30);
     border-radius: 1.7em;
 }
-/* @media(min-with:1000px){
-    :global(.vtex-store-components-3-x-searchBarContaoner){
-        width: 100%;
-        padding: 10px;
-    }
-} */
+ 
 .flexRow--icon-login{
-<<<<<<< HEAD:styles/css/vtex.flex-layout.css
-    transform: translateY(33px);
+  
     width: 141px;
-=======
-    /* transform: translateY(-11px);*/
-    width: 141px; 
->>>>>>> develop:styles/css/layouts/vtex.flex-layout.css
 }
-/* .flexColChild--imagen_perfumes{
-    width: 0;
-} */
+ 
 .flexRow--row_banner_topp{
     margin-left: 410px;
 }
@@ -176,19 +158,8 @@ transform: translateY(48px);
     flex-direction: column;
     align-items: flex-end;
 }
-.flexRowContent--icon-compras{
-<<<<<<< HEAD:styles/css/vtex.flex-layout.css
-<<<<<<< HEAD
-    transform: translateY(33px);
-}
-.flexRowContent--row_banner_down{
-    margin-left: 316px;
-=======
-    transform: translateY(-11px);
-=======
-    
->>>>>>> develop:styles/css/layouts/vtex.flex-layout.css
-}
+  
+ 
 .flexRow--icon-compras:hover{
     border-bottom: 2px solid greenyellow;
 }
@@ -216,12 +187,7 @@ transform: translateY(48px);
     transform: translateY(44px);
     margin-left: 433px;
 }
-.flexRow--content_products{
-    /* transform: translateY(161px); */
-}
-.flexRow--icon-loginn{
-    /* margin-bottom: 15px; */
-}
+ 
 .flexRow--contenedor_navidadd{
     transform: translateY(65px);
 }
@@ -250,90 +216,54 @@ transform: translateY(48px);
     transform: translateY(103px); 
 }
 .flexRow--home__section--twooo{
-<<<<<<< HEAD:styles/css/vtex.flex-layout.css
-    transform: translateY(198px);
->>>>>>> develop
+    transform: translateY(137px);
+ 
 }
-=======
-    transform: translateY(136px);
-}
-.flexRow--home__section--fourr{
-    transform: translateY(78px);
-}
-.flexRowContent--icon-checkk{
-    width: 31px;
-    height: 16px;
-}
-.flexRow--icon-checkk{
-    transform: translateY(34px);
-    margin-left: 13px;
+.flexRowContent--contenedor_nortonmobb{
+    width: 100px;
 }
 .flexRow--search_mobilee{
     background-color: black;
-     
+}
+.flexRow--home__section--fourr{
+    margin-top: 108px;
+}
+.flexRowContent--icon-checkk{
+    width: 24px;
+    margin-top: 32px;
+    margin-left: 34px;
+}
+.flexRow--encuentralo_mob{
+    margin-top: 46px;
+}
+ 
+.flexRow--contenedor_nortonmobb{
+    margin-left: 24px;
+}
+.flexRow--contenedor_derechosmob{
+    
+    border-top: 1px solid #4a4a4a;
+}
+.flexCol--contenedor_derechosmob_text{
+    margin-left: 23px;
+}
+.flexCol--footer_mobile_disclosure{
+    margin-left: 23px;
+}
+.flexRow--contenedor_footermob{
+    border-top: 1px solid #4a4a4a;
 }
 .flexRow--encuentralo{
-    margin-left: 153px;
+    display: flex;
+    margin-left: 145px;
 }
-.flexCol--contenedor_teayudamos{
-    margin-left: -227px;
+.flexCol--icon-norton{
+    margin-left: 403px;
 }
- .flexCol--contenedor_nuestraempresa{
-    margin-left: 175px;
- }
- .flexCol--contenedor_unete{
-    margin-left: 80px;
- }
- .flexRow--contenedor_footer2{
+.flexRow--contenedor_footer2{
+    border-top: 1px solid #4a4a4a;
     background-color: rgb(24,24,24);
- }
- .flexRow--contenedor_footer22{
-    background-color: rgb(24,24,24);;
- }
- .flexRowContent--contenedor_footer22{
-    max-width: 1248px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 24px 0 40px;
-    border-top: 1px solid #333;
-    margin-right: 40px;
-    margin-left: 40px;
 }
-.flexCol--contenedor_footer2_text{
-    margin-left: -19.25rem;
-    margin-right: -0.25rem;
+.flexRow--contenedor_footer22{
+    background-color: rgb(24,24,24);
 }
- .flexColChild--icon-norton{
-    height: 100%;
-    margin-left: 305px;
- }
- .flexCol--contenedor_footer2_text{
-    /* margin-top: 112px; */
- }
- .flexRow--encuentralo_mob{
-    margin-top: 7.25rem;
- }
- .flexCol--footerrr_mobile{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 24px;
- }
- .flexRowContent--contenedor_footermob{
-    border-top: 1px solid rgb(74, 74, 74);
- }
- .flexRowContent--contenedor_derechosmob{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 24px;
- }
- .flexColChild--icon-nortonmob{
-    width: 100px;
- }
- .flexRow--contenedor_nortonmobb{
-    margin-left: 25px;
- }
->>>>>>> develop:styles/css/layouts/vtex.flex-layout.css
