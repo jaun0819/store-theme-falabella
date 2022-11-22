@@ -1,0 +1,10 @@
+ 
+.buttonText--comprar__global{
+    font-weight: 700;
+    
+    color: #fff;
+}
+.comprar__global{
+    background-color: rgb(149,201,0);
+    border-color: snow;   
+}
