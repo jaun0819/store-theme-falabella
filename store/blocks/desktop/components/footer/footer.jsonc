@@ -239,9 +239,14 @@
       },
 
       "rich-text#texto2__footer--uno":{
-          "props":{
+          "props":{ 
             "text":"Nuestra empresa",
-            "blockClass":"texto1_pfalabella"
+            "blockClass":"texto1_pfalabella",
+            "link":{
+              "url":"https://juandev--itgloberspartnercl.myvtex.com/sobre-nosotros",
+              "newTap":true
+          }
+           
           }
       },
       "rich-text#texto2__footer--dos":{

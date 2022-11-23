@@ -33,3 +33,8 @@
     background-color: rgb(143,202,0);
     border-color: snow; 
 }
+.filterMessage{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333; 
+}

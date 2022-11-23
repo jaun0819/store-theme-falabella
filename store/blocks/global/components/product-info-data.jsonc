@@ -13,7 +13,7 @@
   ]      
  },
  "product-images#product__info--image":{
-    "title":"Imagenes",
+ 
     "props":{
         "zooomMode":"open-modal"
     }
@@ -21,11 +21,16 @@
  "flex-layout.col#product__info--data":{
     "title":"Data de producto",
     "children":[
+       /*  "share", */
         "vtex.store-components:product-name",
         "vtex.store-components:product-brand",
+        "product-rating-inline",
         "product-price",
         "product-quantity",
-        "rich-text#product__promo-info" 
+        "rich-text#product__promo-info",
+        "product-description",
+        "shipping-simulator",
+        "availability-subscriber" 
     ]    
  },
  "rich-text#product__promo-info":{
@@ -33,5 +38,51 @@
     "props":{
         "text":""
     }
- }
+ },
+       /*  "share":{
+            "props":{
+                "blockClass":"share_redes"
+            }
+        }, */
+        "vtex.store-components:product-name":{
+            "props":{
+                "blockClass":"name__product"
+            }
+        },
+        "vtex.store-components:product-brand":{
+            "props":{
+                "blockClass":"brand__product"
+            }
+        },
+        "product-rating-inline":{
+            "props":{
+                "blockClass":"rating__product"
+            }
+        },
+        "product-price":{
+            "props":{
+                "blockClass":"price__product"
+            }
+        },
+        "product-quantity":{
+            "props":{
+                "blockClass":"quantity__product"
+            }
+        },
+        "product-description":{
+            "props":{
+                "blockClass":"descripcion_product"
+            }
+        },
+        "shipping-simulator":{
+            "props":{
+                "blockClass":"simulator__shipping"
+            }
+        },
+        "availability-subscriber" :{
+            "props":{
+                "blockClass":"subs__availability"
+            }
+        }
+
 }
