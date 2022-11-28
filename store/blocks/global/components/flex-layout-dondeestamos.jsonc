@@ -1,0 +1,12 @@
+{
+    "image#dondeestamos":{
+        "title":"donde estamos",
+        "props":{
+           
+            "src":"assets/img/dondeestamos.png",
+             "href": "#",
+            "blockClass":"donde estamos"
+            
+        }
+    }
+}

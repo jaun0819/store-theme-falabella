@@ -822,3 +822,15 @@ justify-content: center;
     margin-top: -71px;
     margin-left: 129px;
  }
+ .container--quienes__somos{
+    background-color: rgb(143,202,0);
+    
+ }
+ .heading--quienes__somos{
+    color: white;
+ }
+ .paragraph--texto_nosotros{
+    font-weight: 800;
+    color: #888;
+    font-size: 1.3rem;
+ }

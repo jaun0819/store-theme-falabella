@@ -1,5 +1,5 @@
-{
-    "store.custom#home-test": {
-        "path": "/home-juan"
-      }
+{   
+  "store.custom#about-us":{
+    "path":"/sobre-nosotros"
+  }
 }

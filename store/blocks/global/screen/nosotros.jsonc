@@ -1,0 +1,114 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "flex-layout.row#nosotros__section--uno",
+            "flex-layout.row#about-us__section--two"/* ,
+            "flex-layout.row#about-us__section--three" */
+        ]
+    },
+    "flex-layout.row#nosotros__section--uno": {
+        "children": [
+            "flex-layout.col#about-us__section--one"
+        ]
+    },
+    "flex-layout.row#about-us__section--two": {
+        "children": [
+            "flex-layout.col#about-us__section--two"
+        ]
+    },
+    /* "flex-layout.row#about-us__section--three": {
+        "children": [
+            "flex-layout.col#about-us__section--three"
+        ]
+    }, */
+    "flex-layout.col#about-us__section--one": {
+        "children":[
+            "rich-text#section__one--title"
+        ]
+    },
+    "flex-layout.col#about-us__section--two": {
+        "children":[
+            "image#nosotros",
+            "rich-text#section__quienessomos",
+            "rich-text#section__texto1",
+            "rich-text#section__texto2",
+            "rich-text#section__texto3",
+            "rich-text#section__texto4",
+            "rich-text#section__texto5",
+            "rich-text#section__texto6",
+            "rich-text#section__texto7",
+            "rich-text#section__texto8",
+            "rich-text#section__dondeestamos",
+            "image#dondeestamos"
+        ]
+    },
+    /* "flex-layout.col#about-us__section--three": {
+        "children":[
+             
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#home__encuentralo"
+           
+
+        ]
+    }, */
+    "rich-text#section__one--title":{
+        "props":{
+            "text":"# Acerca de nosotros"
+        }
+    },
+    "rich-text#section__quienessomos":{
+        "props":{
+            "text":"# ¿QUIÉNES SOMOS?",
+            "blockClass":"quienes__somos"
+        }  
+    },
+    "rich-text#section__texto1":{
+        "props":{
+            "text":"# Origen"
+        }
+    },
+    "rich-text#section__texto2":{
+        "props":{
+            "text":"Nuestro origen se remonta a 1889, cuando Salvatore Falabella abre la primera gran sastrería en Chile. Posteriormente, con la vinculación de Alberto Solari, la tienda se fortalece al introducir nuevos productos relacionados con el vestuario y el hogar, transformándose así en una tienda por departamentos y ampliando su cobertura con nuevos puntos de venta. En la década de los 90, iniciamos el proceso de internacionalización, extendiendo nuestra operación a Argentina y posteriormente a Perú. En el 2003 Falabella se fusiona con Sodimac S.A. lo que nos permitió, años más tarde entrar a mercados tan importantes como el colombiano a través de las marcas Homecenter y Constructor. En 2006 inauguramos nuestra primera tienda Falabella en Colombia, en el Centro Comercial Santafé de la ciudad de Bogotá.",
+            "blockClass":"texto_nosotros"
+        }
+    },
+    "rich-text#section__texto3":{
+        "props":{
+            "text":"# Misión"
+        }
+    },
+    "rich-text#section__texto4":{
+        "props":{
+            "text":"Liderar el comercio latinoamericano, entregando la mejor experiencia de compra omnicanal.",
+            "blockClass":"texto_nosotros"
+        }
+    },
+    "rich-text#section__texto5":{
+        "props":{
+            "text":"# Propósito"
+        }
+    },
+    "rich-text#section__texto6":{
+        "props":{
+            "text":"Enriquecer la vida de nuestros clientes con los productos y experiencias que ellos quieren.",
+            "blockClass":"texto_nosotros"
+        }
+    },
+    "rich-text#section__texto7":{
+        "props":{
+            "text":"# Nuestra Gente"
+        }
+    },
+    "rich-text#section__texto8":{
+        "props":{
+            "text":"Contamos con el mejor talento con foco en la atención al cliente, gracias a estrategias que aportan al crecimiento personal y profesional de nuestros más de 4.700 colaboradores a nivel nacional, de los cuales más del 60% son mujeres.Nos preocupamos por generar entornos de aprendizaje y retos en un ambiente positivo, razón por la cual cubrimos el 70% de los cargos con talento interno, fomentando una cultura de crecimiento y reconocimiento.Ofrecemos bienestar para nuestros colaboradores, por eso contamos con un Pacto Colectivo que cobija al 100% de nuestro equipo, con 26 beneficios que impactan sus vidas y las de sus familias. Estamos en el puesto #20 de las mejores empresas para trabajar en Colombia, según el Ranking Internacional Great Place To Work.",
+            "blockClass":"texto_nosotros"
+        }
+    },
+    "rich-text#section__dondeestamos":{
+        "props":{
+            "text":"## ¿Dónde Estamos?"
+        }
+    }
+}

@@ -2,6 +2,7 @@
     "header-layout.mobile":{
         "title":"header mobile",
         "children":[
+            "whatsapp-button#mobile",
             "header-row#header__top--mobile",
             "flex-layout.row#seccion-search",
             "image#home__enviosmobile",

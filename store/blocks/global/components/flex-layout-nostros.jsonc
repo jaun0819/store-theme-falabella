@@ -1,0 +1,12 @@
+{
+    "image#nosotros":{
+        "title":"nosotros",
+        "props":{
+           
+            "src":"assets/img/nosotros.png",
+             "href": "#",
+            "blockClass":"envios--tittle"
+            
+        }
+    }
+}

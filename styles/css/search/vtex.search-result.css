@@ -1,0 +1,40 @@
+.filter__container--category-2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+.filter__container--title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+.filterTitleSpan{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+.filterItem--adidas {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+.galleryTitle--layout{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+.searchResultContainer{
+    display: contents;
+}
+.galleryTitle--layout{
+    margin-left: -373px;
+}
+.galleryItem--normal :global(.vtex-button){
+    background-color: rgb(143,202,0);
+    border-color: snow; 
+}
+.filterMessage{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333; 
+}

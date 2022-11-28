@@ -1,0 +1,16 @@
+ 
+.buttonText--comprar__global{
+    font-weight: 700;
+    
+    color: #fff;
+}
+.comprar__global{
+    background-color: rgb(149,201,0);
+    border-color: snow;   
+}
+.listItemActive :global(.vtex-button):hover{
+    background-color: rgb(143,202,0);
+    border-color: snow; 
+    color: white;
+}
+

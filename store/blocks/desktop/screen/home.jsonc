@@ -1,8 +1,8 @@
 {
     "responsive-layout.desktop":{
         "children":[
-          /* "header-layout.desktop",  */
            
+            "whatsapp-button",
             "image#home__envios",
             "slider-layout#home__slider--children",
             "flex-layout.row#seccion-navidad",
@@ -12,10 +12,10 @@
             "flex-layout.row#seccion-beneficios",
             "flex-layout.row#global__product--listaa",
             "flex-layout.row#home__section--four",
-            "flex-layout.row#home__encuentralo" 
-            
+            "flex-layout.row#home__encuentralo"
               ]
     }
+    
 }
 
 

@@ -1,0 +1,11 @@
+{
+    "whatsapp-button":{
+        "props":{
+            "logo":"assets/img/logo-whatsapp.png",
+            "phone":"+57 1 5878000",
+            "message":"Falabella"
+            
+            
+        }
+    }
+}

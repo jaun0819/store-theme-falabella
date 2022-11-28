@@ -5,6 +5,7 @@
 
      "footer-layout.desktop": { 
     "children": [
+       
      "flex-layout.row#footer__container",
      "flex-layout.row#footer-desktop",
      "flex-layout.row#footer2-desktop"
@@ -239,9 +240,14 @@
       },
 
       "rich-text#texto2__footer--uno":{
-          "props":{
+          "props":{ 
             "text":"Nuestra empresa",
-            "blockClass":"texto1_pfalabella"
+            "blockClass":"texto1_pfalabella",
+            "link":{
+              "href":"https://juandev--itgloberspartnercl.myvtex.com/sobre-nosotros",
+              "newTap":true
+          }
+           
           }
       },
       "rich-text#texto2__footer--dos":{
