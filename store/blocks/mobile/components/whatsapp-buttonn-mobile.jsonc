@@ -1,0 +1,11 @@
+{
+    "whatsapp-button#mobile":{
+        "props":{
+            "logo":"assets/img/logo-whatsapp.png",
+            "phone":"77777777",
+            "message":"Falabella",
+            "blockClass":"botton-whatsapp"
+            
+        }
+    }
+}

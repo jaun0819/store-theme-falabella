@@ -7,6 +7,18 @@
         "responsive-layout.phone",
         "responsive-layout.tablet" 
         
+      ]/* ,
+      "children":[
+        "whatsapp-button"
       ]
-    }
+    },
+    "whatsapp-button":{
+      "props":{
+          "logo":"assets/img/logo-whatsapp.png",
+          "phone":"77777777",
+          "message":"Falabella",
+          "blockClass":"botton-whatsapp"
+          
+      } */
+  }
   }
