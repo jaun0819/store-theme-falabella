@@ -2,7 +2,7 @@
  
 ![Portada del proyecto en construcción](../assets/img/portada.png)
 
- INDICE
+<h1 align="center"> INDICE </h1><br>
  -Título e imagen de portada
  -Índice
  -Descripción del proyecto
