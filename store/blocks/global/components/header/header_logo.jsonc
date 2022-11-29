@@ -11,10 +11,10 @@
       
   "modal-trigger#logo": {
     "children": [
-      "flex-layout.row#logo"
+      "flex-layout.row#logoo"
     ]
   },
-  "flex-layout.row#logo": {
+  "flex-layout.row#logoo": {
     "children": [
       "image#logo"
     ],

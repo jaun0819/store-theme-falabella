@@ -5,6 +5,7 @@
             "whatsapp-button",
             "image#home__envios",
             "slider-layout#home__slider--children",
+            /* "bullets-diagramation", */
             "flex-layout.row#seccion-navidad",
             "flex-layout.row#seccion-fertaa",
             "flex-layout.row#home__section--two",

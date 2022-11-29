@@ -1,30 +1,30 @@
 {
     "flex-layout.row#global__productmobile--listaa": {
         "children": [
-            "flex-layout.col#global__product--listaa"
+            "flex-layout.col#global__product--listaas"
         ],
         "props":{
             "blockClass":"content_productos"
         }
     },
-    "flex-layout.col#global__product--listaa": {
+    "flex-layout.col#global__product--listaas": {
         "children": [
-            "list-context.product-list#global__slider--home--productos"
+            "list-context.product-list#global__slider--home--productoss"
         ]
     },
-    "list-context.product-list#global__slider--home--productos": {
+    "list-context.product-list#global__slider--home--productoss": {
         "title": "Lista productos gallery",
         "blocks": [
-            "product-summary.shelf#home__productos--shelf--lanzamientos"
+            "product-summary.shelf#home__productos--shelf--lanzamientoss"
         ],
         "children": [
-            "slider-layout#global__productos--lanzamientos"
+            "slider-layout#global__productos--lanzamientoss"
         ],
         "props": {
             "blockClass": "global__list--products"
         }
     },
-    "product-summary.shelf#home__productos--shelf--lanzamientos": {
+    "product-summary.shelf#home__productos--shelf--lanzamientoss": {
         "children": [
             "product-summary-image",
             "product-summary-space",
@@ -39,7 +39,7 @@
             "blockClass": "comprar__global"
         }
     },
-    "slider-layout#global__productos--lanzamientos": {
+    "slider-layout#global__productos--lanzamientoss": {
         "props": {
             "itemsPerPage": {
                 "desktop": 5,

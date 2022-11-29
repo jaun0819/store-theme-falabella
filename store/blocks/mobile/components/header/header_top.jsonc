@@ -18,7 +18,7 @@
       "modal-trigger#login": {
         "children": [
           "flex-layout.row#usuario",
-          "modal-layout#login"
+          "modal-layout#loginn"
         ],
         "props":{
           "blockClass":"icon-usuarioo"
@@ -26,14 +26,14 @@
       },
       "flex-layout.row#usuario": {
         "children": [
-          "image#login",
+          "image#loginn",
           "rich-text#loginn"
         ],
         "props": {
           "blockClass": "icon-loginn"
         }
       },
-      "image#login": {
+      "image#loginn": {
         "props": {
           "src": "assets/img/usuario.svg",
           "width": 100,
@@ -45,7 +45,7 @@
           /* "text": "Inicia sesion" */
         }
       },
-      "modal-layout#login": {
+      "modal-layout#loginn": {
         "children": [
           "login-content"
         ]
@@ -67,20 +67,10 @@
                
             ]
           },
-          
-          /* "flex-layout.row#contenedor_logo":{
-            "children":[
-              "logo#header__top--logomobile"
-            ]
-          },
-          "flex-layout.row#contenedor_menu":{
-            "children":[
-              
-            ]
-          } */
+           
           "minicart.v2#phone":{
             "props":{
-                "MinicartIcon":"icon#cart-icon",
+                "MinicartIcon":"icon#cartt-icon",
                 "itemCountMode":"total",
                 "quantityDisplay":"always",
                 "variation":"popup",
@@ -105,9 +95,9 @@
           },
           "flex-layout.col#minicart__emptyy":{
             "children":[
-                "icon#cart-icon"
+                "icon#cartt-icon"
             ]
-          } ,"icon#cart-icon":{
+          } ,"icon#cartt-icon":{
                
                 "props":{
                     "id":"hpa-cart",
