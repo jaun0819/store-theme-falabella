@@ -395,12 +395,7 @@
     z-index: 0;
     margin-left: 100px;
 }
-/* @media(min-with:1000px){
-    .vtex-store-components-3-x-searchBarContaoner{
-        width: 100%;
-        padding: 10px;
-    }
-} */
+ 
 .imageElement--iconn-login{
     width: 100px;
     transform: translateY(-5px);
@@ -415,7 +410,7 @@
       
 }
 .autoCompleteOuterContainer--search_mobilee{
-    /* margin-left: 244px; */
+    
     width: 303px;
      
 }

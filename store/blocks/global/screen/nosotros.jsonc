@@ -2,8 +2,7 @@
     "store.custom#about-us2": {
         "blocks": [
             "flex-layout.row#nosotros__section--uno",
-            "flex-layout.row#about-us__section--two"/* ,
-            "flex-layout.row#about-us__section--three" */
+            "flex-layout.row#about-us__section--two" 
         ]
     },
     "flex-layout.row#nosotros__section--uno": {
@@ -16,11 +15,7 @@
             "flex-layout.col#about-us__section--two"
         ]
     },
-    /* "flex-layout.row#about-us__section--three": {
-        "children": [
-            "flex-layout.col#about-us__section--three"
-        ]
-    }, */
+   
     "flex-layout.col#about-us__section--one": {
         "children":[
             "rich-text#section__one--title"
@@ -42,15 +37,7 @@
             "image#dondeestamos"
         ]
     },
-    /* "flex-layout.col#about-us__section--three": {
-        "children":[
-             
-            "flex-layout.row#home__section--four",
-            "flex-layout.row#home__encuentralo"
-           
-
-        ]
-    }, */
+     
     "rich-text#section__one--title":{
         "props":{
             "text":"# Acerca de nosotros"
