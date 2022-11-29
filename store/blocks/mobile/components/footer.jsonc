@@ -9,9 +9,7 @@
           "flex-layout.row#footer2-mobile",
           "flex-layout.row#footer3-mobile",
           "flex-layout.row#footer4-mobile",
-          "flex-layout.row#footer5-mobile"/* ,
-      "flex-layout.row#footer-mob",
-      "flex-layout.row#footer2-mob"  */
+          "flex-layout.row#footer5-mobile"
     ],
     "props":{
       "blockClass":"footer_mobile"
@@ -279,7 +277,7 @@
           "rich-text#text__footer--fivemobb",
           "rich-text#text__footer--sixmobb",
           "rich-text#text__footer--sevenmobb", 
-          "flex-layout.col#industria",
+          "flex-layout.col#industriaa",
           "rich-text#text__footer--ochomobb",
           "rich-text#text__footer--nuevemobb",
           "rich-text#text__footer--diezmobb",
@@ -360,15 +358,15 @@
             }
           }
         },
-        "flex-layout.col#industria":{
+        "flex-layout.col#industriaa":{
           "children":[
-           "image#industria"   
+           "image#industriaa"   
           ],
           "props":{
               "blockClass":"imagen_industria"
           }
       },
-      "image#industria"  :{
+      "image#industriaa"  :{
         "title":"INDUSTRIA_IMAGE",
         "props":{
             "src":"assets/img/industria.png",

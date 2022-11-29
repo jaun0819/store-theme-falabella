@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#seccion-decohogar":{
+    "flex-layout.row#seccionmob-decohogar":{
         "title":"seccion ofertas",
         "children":[
             "flex-layout.col#decohogar"
